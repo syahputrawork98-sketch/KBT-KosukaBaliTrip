@@ -1,19 +1,19 @@
 # Architecture Overview
 
-## Project Directories
-- **`client/`**: This directory will house the frontend application codebase.
-- **`server/`**: This directory will house the backend Node.js API codebase.
-- **`docs/`**: This directory is reserved strictly for all project documentation.
+## Gambaran Arsitektur Sederhana
+Kosuka Bali Trip akan dibangun menggunakan model *Client-Server* sederhana yang dipisah foldernya namun dikelola di dalam satu repositori yang sama.
 
-## Frontend/Backend Relationship
-The application will utilize a decoupled architecture. The frontend (client) and backend (server) are separate entities. The frontend will consume data via APIs provided by the backend, ensuring a clear separation of concerns.
+### Pembagian Peran
+1. **Client (Frontend)**: Berperan menampilkan UI/UX (Landing page, detail paket, form) dan berinteraksi secara langsung dengan pengguna akhir (calon wisatawan).
+2. **Server (Backend API)**: Berperan sebagai pusat penyedia data/katalog wisata ke Client, memvalidasi data bila perlu, serta nantinya bertindak sebagai jembatan ke Database.
+3. **Docs (Dokumentasi)**: Berperan sebagai panduan berjalan bagi developer selama proses pengembangan dan pemeliharaan.
 
-## Simple User Flow
-The primary user journey is straightforward:
-1. **Homepage** → 
-2. **Package List** → 
-3. **Package Detail** → 
-4. **Inquiry**
-
-## Note
-This architecture is still in the early planning stages and serves as an initial guideline for development.
+## Alur Umum Pengguna (User Flow)
+1. **Membuka Website**:
+   Pengguna masuk ke halaman utama. `client` akan memuat halaman Landing Page yang ringan dan responsif.
+2. **Melihat Katalog/Paket**:
+   Pengguna menelusuri paket wisata yang tersedia. `client` akan memanggil endpoint API dari `server` untuk mendapatkan list data paket.
+3. **Mengirim Inquiry (Booking)**:
+   - Pengguna memilih "Pesan Sekarang" dan melengkapi form isian ringkas.
+   - Form memvalidasi input dari pengguna secara mandiri (Frontend validation).
+   - Aplikasi lalu me-redirect data ke WhatsApp Admin untuk penyelesaian transaksi *(Fokus Utama MVP)*.

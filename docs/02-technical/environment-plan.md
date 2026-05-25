@@ -1,10 +1,12 @@
-# Environment Plan
+# Environment Variables Plan
 
-## Configuration
-- **Future `.env` usage:** Environment-specific configurations and variables will be managed using `.env` files.
-- **Secrets must not enter GitHub:** Never commit `.env` files or any sensitive information (e.g., API keys, database credentials) to the repository.
+Dokumen ini mengatur cara pengelolaan rahasia (secrets) di proyek Kosuka Bali Trip menggunakan *Environment Variables*.
 
-## Environments
-- **Development vs Production:** There will be a clear distinction between development and production environments.
+## Status Saat Ini
+- File `.env` maupun `.env.example` **belum dibuat** pada fase perencanaan ini.
+- Setup environment yang sesungguhnya baru akan dibahas saat proyek masuk pada fase pengaturan Backend/API Server (Batch selanjutnya).
 
-*Note: The exact environment details and required variables are not finalized yet.*
+## Rencana Implementasi
+1. **Isolasi .env**: Nanti akan dibuatkan file `.env` yang terpisah (Satu untuk `client/`, satu untuk `server/`).
+2. **Keamanan Repository (Awas Secrets!)**: Variabel rahasia seperti credential database, API Keys, atau token auth **tidak boleh** sama sekali disimpan dan dikirim (push) ke GitHub.
+3. **Template Tersedia**: Nanti akan ada file template `.env.example` yang diikutsertakan ke GitHub agar developer baru mengetahui daftar *keys* apa saja yang wajib disiapkan tanpa membocorkan nilai aslinya.

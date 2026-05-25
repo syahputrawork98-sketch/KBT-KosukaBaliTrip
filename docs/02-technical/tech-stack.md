@@ -1,18 +1,23 @@
-# Tech Stack Planning
+# Technical Stack Plan
 
-## TypeScript Usage Plan
-We plan to use TypeScript across the entire stack to ensure type safety, better tooling, and fewer runtime errors.
+## Frontend
+- **Bahasa Utama**: TypeScript
+- **Framework**: (Akan diputuskan, rekomendasi: React / Next.js)
 
-## Backend Planning
-The backend will be built with Node.js, providing a robust and efficient environment for our API services.
+## Backend
+- **Environment**: Node.js
+- **Bahasa Utama**: TypeScript
 
-## Frontend/Backend Separation
-The project will follow a strict frontend and backend separation. The client and server will operate independently, communicating via APIs.
+## Struktur Utama (Root Level)
+Sistem akan mengadopsi monorepo sederhana yang dibagi menjadi 3 pilar:
+1. `client/` - Kode, aset, dan konfigurasi khusus Frontend.
+2. `server/` - Kode, API, dan logika khusus Backend.
+3. `docs/` - Dokumentasi dan perencanaan sistem.
 
-## Documentation Center
-The `docs/` directory will serve as the centralized documentation center. All planning, technical rules, and logs will reside here.
+## Database & Deployment
+- **Database**: Belum diputuskan saat ini.
+- **Deployment**: Belum diputuskan (Host/VPS/Cloud).
 
-## Architecture Principles
-- **MVP-first principle:** We focus on delivering the Minimum Viable Product (MVP) core features before adding secondary features.
-- **Simple scalable architecture:** The architecture should be simple to understand and maintain, but designed in a way that allows scaling when needed.
-- **Early stack planning:** The current stack choices represent early planning and will serve as the foundation for the project.
+## Prinsip Pengerjaan
+- **Simple & MVP-First**: Mengutamakan fitur yang penting dan relevan, menghindari pembuatan sistem yang rumit di awal pengembangan.
+- **Mudah Dikembangkan**: Membuat kode yang modular, dapat dibaca, dan disesuaikan di batch pengembangan selanjutnya.
