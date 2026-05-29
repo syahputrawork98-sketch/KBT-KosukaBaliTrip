@@ -9,10 +9,15 @@ Dokumentasi digunakan agar project tetap rapi, mudah dipahami, dan bisa dilanjut
 ```txt
 docs/
 ├── README.md
-└── project-workflow/
+├── project-workflow/
+│   ├── README.md
+│   ├── PROJECT_CONTEXT.md
+│   └── WORKING_SYSTEM.md
+└── project-history/
     ├── README.md
-    ├── PROJECT_CONTEXT.md
-    └── WORKING_SYSTEM.md
+    ├── CURRENT_STATUS.md
+    ├── BATCH_TEMPLATE.md
+    └── BATCH_000_TO_010.md
 ```
 
 ### Alur Membaca Dokumentasi
@@ -31,3 +36,9 @@ Untuk memahami project dari awal, baca dokumen dengan urutan berikut:
 Folder `project-workflow` berisi panduan konteks project dan sistem kerja project.
 
 Folder ini penting untuk menjaga agar proses kerja tetap konsisten, terutama ketika project dibantu oleh ChatGPT, Gemini, Antigravity Agent, atau AI tools lainnya.
+
+### Folder project-history
+
+Folder `project-history` berisi riwayat pengerjaan project berbasis batch.
+
+Folder ini penting agar status terakhir project, batch yang sedang berjalan, commit terakhir, dan langkah berikutnya tetap mudah dipahami ketika akun ChatGPT, room chat, atau AI tools berubah.
