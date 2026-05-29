@@ -71,11 +71,11 @@ Batch ini menjadi pondasi awal project.
 
 ## Batch 001 — Project History System
 
-Status: In Progress
+Status: Completed
 
 Commit hash:
 ```txt
-Pending
+fce1f403b2145690a24df4557da9c4d8d6a73054
 ```
 
 Date:
@@ -106,15 +106,15 @@ Membuat sistem dokumentasi riwayat project berbasis batch agar project mudah dil
 
 ### Result
 
-Pending.
+Batch 001 berhasil diselesaikan.
 
 ### Review Notes
 
-Pending review.
+Commit hash sudah diberikan ke Room Chat 00. Review detail dapat dilakukan oleh Room Chat 01 berdasarkan commit hash yang tercatat.
 
 ### Next Step
 
-Setelah Batch 001 selesai, user melakukan commit dan push, lalu mengirim commit hash ke Room Chat 00 untuk proses review.
+Melanjutkan ke Batch 002 untuk membuat project onboarding instructions.
 
 ### Notes
 
@@ -124,26 +124,60 @@ Satu file history digunakan untuk merangkum 10 batch.
 
 ---
 
-## Batch 002 — Pending
+## Batch 002 — Project Onboarding Instructions
 
-Status: Planned
+Status: In Progress
 
 Commit hash:
 ```txt
 Pending
 ```
 
+Date:
+```txt
+2026-05-29
+```
+
 ### Objective
 
-Pending.
+Membuat dokumentasi onboarding project agar instruksi setup ChatGPT Project, Room Chat 00, dan Room Chat 01 tersimpan di GitHub dan bisa digunakan ulang ketika akun ChatGPT berubah.
 
 ### Scope
+- Membuat folder docs/project-onboarding/
+- Membuat docs/project-onboarding/README.md
+- Membuat docs/project-onboarding/CHATGPT_PROJECT_INSTRUCTIONS.md
+- Membuat docs/project-onboarding/ROOM_00_MANAGER_PROMPT.md
+- Membuat docs/project-onboarding/ROOM_01_REVIEWER_PROMPT.md
+- Mengupdate docs/README.md
+- Mengupdate docs/project-history/CURRENT_STATUS.md
+- Mengupdate docs/project-history/BATCH_000_TO_010.md
 
-Pending.
+### Files Created
+- docs/project-onboarding/README.md
+- docs/project-onboarding/CHATGPT_PROJECT_INSTRUCTIONS.md
+- docs/project-onboarding/ROOM_00_MANAGER_PROMPT.md
+- docs/project-onboarding/ROOM_01_REVIEWER_PROMPT.md
+
+### Files Updated
+- docs/README.md
+- docs/project-history/CURRENT_STATUS.md
+- docs/project-history/BATCH_000_TO_010.md
 
 ### Result
 
 Pending.
+
+### Review Notes
+
+Pending review.
+
+### Next Step
+
+Setelah Batch 002 selesai, user melakukan commit dan push, lalu mengirim commit hash ke Room Chat 00 untuk review.
+
+### Notes
+
+Folder project-onboarding digunakan sebagai tempat instruksi copy-paste untuk migrasi akun ChatGPT dan setup room chat baru.
 
 ---
 

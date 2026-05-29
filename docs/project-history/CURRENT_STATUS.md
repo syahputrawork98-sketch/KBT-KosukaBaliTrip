@@ -15,36 +15,33 @@ Project history system is being prepared.
 
 ### Last Completed Batch
 
-Batch 000 — Initial Project Structure and Workflow Docs
+Batch 001 — Project History System
 
 Status: Completed
 
 Commit hash:
 ```txt
-9384635e25b06d15d49d7ca166ddcfd2bc5ea5dd
+fce1f403b2145690a24df4557da9c4d8d6a73054
 ```
 
 Hasil utama:
-- Struktur awal repository dibuat
-- Folder client/ dibuat
-- Folder server/ dibuat
-- Folder docs/ dibuat
-- Root README.md dibuat
-- Root FEATURES.md dibuat
-- Folder docs/project-workflow/ dibuat
-- Dokumen konteks dan sistem kerja awal dibuat
+- Folder docs/project-history/ dibuat
+- Sistem pencatatan batch per 10 batch dalam satu file
+- File status terbaru project
+- Template pencatatan batch
 
 ### Current Batch
 
-Batch 001 — Project History System
+Batch 002 — Project Onboarding Instructions
 
 Status: In Progress
 
 Tujuan:
-- Membuat folder docs/project-history/
-- Membuat sistem pencatatan batch per 10 batch dalam satu file
-- Membuat file status terbaru project
-- Membuat template pencatatan batch
+- Membuat folder docs/project-onboarding/
+- Membuat instruksi copy-paste untuk ChatGPT Project
+- Membuat prompt awal untuk Room Chat 00
+- Membuat prompt awal untuk Room Chat 01
+- Mempermudah perpindahan akun ChatGPT atau pembuatan project baru
 
 ## Next Recommended Step
 

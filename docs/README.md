@@ -13,11 +13,16 @@ docs/
 │   ├── README.md
 │   ├── PROJECT_CONTEXT.md
 │   └── WORKING_SYSTEM.md
-└── project-history/
+├── project-history/
+│   ├── README.md
+│   ├── CURRENT_STATUS.md
+│   ├── BATCH_TEMPLATE.md
+│   └── BATCH_000_TO_010.md
+└── project-onboarding/
     ├── README.md
-    ├── CURRENT_STATUS.md
-    ├── BATCH_TEMPLATE.md
-    └── BATCH_000_TO_010.md
+    ├── CHATGPT_PROJECT_INSTRUCTIONS.md
+    ├── ROOM_00_MANAGER_PROMPT.md
+    └── ROOM_01_REVIEWER_PROMPT.md
 ```
 
 ### Alur Membaca Dokumentasi
@@ -42,3 +47,9 @@ Folder ini penting untuk menjaga agar proses kerja tetap konsisten, terutama ket
 Folder `project-history` berisi riwayat pengerjaan project berbasis batch.
 
 Folder ini penting agar status terakhir project, batch yang sedang berjalan, commit terakhir, dan langkah berikutnya tetap mudah dipahami ketika akun ChatGPT, room chat, atau AI tools berubah.
+
+### Folder project-onboarding
+
+Folder `project-onboarding` berisi panduan setup ulang project ketika user pindah akun ChatGPT, membuat ChatGPT Project baru, atau membuat room chat baru.
+
+Folder ini menyimpan instruksi copy-paste untuk ChatGPT Project, Room Chat 00, dan Room Chat 01.
