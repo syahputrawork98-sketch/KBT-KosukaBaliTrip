@@ -9,21 +9,23 @@ Dokumentasi digunakan agar project tetap rapi, mudah dipahami, dan bisa dilanjut
 ```txt
 docs/
 ├── README.md
-├── project-workflow/
-│   ├── README.md
-│   ├── PROJECT_CONTEXT.md
-│   ├── WORKING_SYSTEM.md
-│   └── MODEL_USAGE_GUIDE.md
-├── project-history/
-│   ├── README.md
-│   ├── CURRENT_STATUS.md
-│   ├── BATCH_TEMPLATE.md
-│   └── BATCH_000_TO_010.md
-└── project-onboarding/
+└── project/
     ├── README.md
-    ├── CHATGPT_PROJECT_INSTRUCTIONS.md
-    ├── ROOM_00_MANAGER_PROMPT.md
-    └── ROOM_01_REVIEWER_PROMPT.md
+    ├── workflow/
+    │   ├── README.md
+    │   ├── PROJECT_CONTEXT.md
+    │   ├── WORKING_SYSTEM.md
+    │   └── MODEL_USAGE_GUIDE.md
+    ├── history/
+    │   ├── README.md
+    │   ├── CURRENT_STATUS.md
+    │   ├── BATCH_TEMPLATE.md
+    │   └── BATCH_000_TO_010.md
+    └── onboarding/
+        ├── README.md
+        ├── CHATGPT_PROJECT_INSTRUCTIONS.md
+        ├── ROOM_00_MANAGER_PROMPT.md
+        └── ROOM_01_REVIEWER_PROMPT.md
 ```
 
 ### Alur Membaca Dokumentasi
@@ -33,24 +35,27 @@ Untuk memahami project dari awal, baca dokumen dengan urutan berikut:
 1. `README.md` di root repository
 2. `FEATURES.md` di root repository
 3. `docs/README.md`
-4. `docs/project-workflow/README.md`
-5. `docs/project-workflow/PROJECT_CONTEXT.md`
-6. `docs/project-workflow/WORKING_SYSTEM.md`
+4. `docs/project/README.md`
+5. `docs/project/workflow/PROJECT_CONTEXT.md`
+6. `docs/project/workflow/WORKING_SYSTEM.md`
+7. `docs/project/workflow/MODEL_USAGE_GUIDE.md`
+8. `docs/project/history/CURRENT_STATUS.md`
+9. `docs/project/history/BATCH_000_TO_010.md`
+10. `docs/project/onboarding/README.md`
 
-### Folder project-workflow
+### Folder project
 
-Folder `project-workflow` berisi panduan konteks project dan sistem kerja project.
+Folder `project` berisi dokumentasi inti yang mengatur cara kerja project.
 
-Folder ini penting untuk menjaga agar proses kerja tetap konsisten, terutama ketika project dibantu oleh ChatGPT, Gemini, Antigravity Agent, atau AI tools lainnya.
+Isi utama:
+- `workflow/` untuk konteks project, sistem kerja, dan aturan penggunaan model
+- `history/` untuk status terbaru dan riwayat batch
+- `onboarding/` untuk instruksi copy-paste saat pindah akun ChatGPT atau membuat room baru
 
-### Folder project-history
+Folder ini penting agar dokumentasi project tidak tercecer di level depan `docs/`.
 
-Folder `project-history` berisi riwayat pengerjaan project berbasis batch.
+## Prinsip Utama
 
-Folder ini penting agar status terakhir project, batch yang sedang berjalan, commit terakhir, dan langkah berikutnya tetap mudah dipahami ketika akun ChatGPT, room chat, atau AI tools berubah.
+GitHub adalah Source of Truth utama.
 
-### Folder project-onboarding
-
-Folder `project-onboarding` berisi panduan setup ulang project ketika user pindah akun ChatGPT, membuat ChatGPT Project baru, atau membuat room chat baru.
-
-Folder ini menyimpan instruksi copy-paste untuk ChatGPT Project, Room Chat 00, dan Room Chat 01.
+Semua konteks, status, dan riwayat kerja harus merujuk pada repository GitHub.

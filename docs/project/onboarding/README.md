@@ -39,13 +39,13 @@ Room Chat 01 berperan sebagai analyst dan reviewer.
 Jika user pindah akun ChatGPT atau membuat ChatGPT Project baru, lakukan langkah berikut:
 
 1. Buat ChatGPT Project baru.
-2. Buka `docs/project-onboarding/CHATGPT_PROJECT_INSTRUCTIONS.md`.
+2. Buka `docs/project/onboarding/CHATGPT_PROJECT_INSTRUCTIONS.md`.
 3. Copy isi file tersebut ke bagian Add Instructions di ChatGPT Project.
 4. Buat Room Chat 00.
-5. Copy isi `docs/project-onboarding/ROOM_00_MANAGER_PROMPT.md` sebagai pesan awal Room Chat 00.
+5. Copy isi `docs/project/onboarding/ROOM_00_MANAGER_PROMPT.md` sebagai pesan awal Room Chat 00.
 6. Buat Room Chat 01.
-7. Copy isi `docs/project-onboarding/ROOM_01_REVIEWER_PROMPT.md` sebagai pesan awal Room Chat 01.
-8. Baca `docs/project-history/CURRENT_STATUS.md` untuk mengetahui status terakhir project.
+7. Copy isi `docs/project/onboarding/ROOM_01_REVIEWER_PROMPT.md` sebagai pesan awal Room Chat 01.
+8. Baca `docs/project/history/CURRENT_STATUS.md` untuk mengetahui status terakhir project.
 9. Lanjutkan pekerjaan berdasarkan batch terakhir dan arahan Room Chat 00.
 
 ## Urutan Dokumen yang Perlu Dibaca
@@ -55,12 +55,12 @@ Untuk memahami project dari awal, baca dokumen berikut:
 1. `README.md`
 2. `FEATURES.md`
 3. `docs/README.md`
-4. `docs/project-workflow/README.md`
-5. `docs/project-workflow/PROJECT_CONTEXT.md`
-6. `docs/project-workflow/WORKING_SYSTEM.md`
-7. `docs/project-history/CURRENT_STATUS.md`
-8. `docs/project-history/BATCH_000_TO_010.md`
-9. `docs/project-onboarding/README.md`
+4. `docs/project/workflow/README.md`
+5. `docs/project/workflow/PROJECT_CONTEXT.md`
+6. `docs/project/workflow/WORKING_SYSTEM.md`
+7. `docs/project/history/CURRENT_STATUS.md`
+8. `docs/project/history/BATCH_000_TO_010.md`
+9. `docs/project/onboarding/README.md`
 
 ## Prinsip Utama
 

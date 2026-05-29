@@ -31,13 +31,13 @@ Sebelum melakukan review, pahami dokumen berikut:
 1. `README.md`
 2. `FEATURES.md`
 3. `docs/README.md`
-4. `docs/project-workflow/README.md`
-5. `docs/project-workflow/PROJECT_CONTEXT.md`
-6. `docs/project-workflow/WORKING_SYSTEM.md`
-7. `docs/project-history/CURRENT_STATUS.md`
-8. File batch history yang relevan, misalnya `docs/project-history/BATCH_000_TO_010.md`
-9. `docs/project-onboarding/README.md`
-10. `docs/project-workflow/MODEL_USAGE_GUIDE.md`
+4. `docs/project/workflow/README.md`
+5. `docs/project/workflow/PROJECT_CONTEXT.md`
+6. `docs/project/workflow/WORKING_SYSTEM.md`
+7. `docs/project/history/CURRENT_STATUS.md`
+8. File batch history yang relevan, misalnya `docs/project/history/BATCH_000_TO_010.md`
+9. `docs/project/onboarding/README.md`
+10. `docs/project/workflow/MODEL_USAGE_GUIDE.md`
 
 ## Tugas Rekomendasi Model
 

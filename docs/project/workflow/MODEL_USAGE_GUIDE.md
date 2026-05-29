@@ -1,6 +1,6 @@
 # Model Usage Guide
 
-Dokumen ini menjelaskan aturan penggunaan model AI dalam workflow project Kosuka Bali Trip.
+Dokumen ini menjelaskan aturan penggunaan model AI dalam docs/project/Kosuka Bali Trip.
 
 Panduan ini digunakan oleh User, Room Chat 00, Room Chat 01, Gemini, dan Antigravity Agent agar pemilihan model tetap konsisten, efisien, dan sesuai risiko pekerjaan.
 

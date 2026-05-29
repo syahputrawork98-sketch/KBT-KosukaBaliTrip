@@ -15,34 +15,35 @@ Project history system is being prepared.
 
 ### Last Completed Batch
 
-Batch 002 — Project Onboarding Instructions
+Batch 003 — Model Usage Guide
 
 Status: Completed
 
 Commit hash:
 ```txt
-3e9a93bf4a488fc35043b3a1ca38fb9289ced1dc
+3aadeafd4832a1bff88906b731aa7ca8730ded18
 ```
 
 Hasil utama:
-- Folder docs/project-onboarding/ dibuat
-- Instruksi copy-paste untuk ChatGPT Project dibuat
-- Prompt awal untuk Room Chat 00 dibuat
-- Prompt awal untuk Room Chat 01 dibuat
-- Perpindahan akun ChatGPT dipermudah
-
-### Current Batch
-
-Batch 003 — Model Usage Guide
-
-Status: In Progress
-
-Tujuan:
-- Membuat docs/project-workflow/MODEL_USAGE_GUIDE.md
+- Membuat docs/project/workflow/MODEL_USAGE_GUIDE.md
 - Menjelaskan aturan penggunaan Gemini 3.1 Pro Low
 - Menjelaskan aturan penggunaan Gemini 3.1 Pro High
 - Menjelaskan penggunaan model alternatif sebagai Acceleration Mode
 - Mengupdate onboarding prompt agar memahami aturan pemilihan model
+
+### Current Batch
+
+Batch 004 — Reorganize Project Documentation Structure
+
+Status: In Progress
+
+Tujuan:
+- Memindahkan docs/project-workflow/ ke docs/project/workflow/
+- Memindahkan docs/project-history/ ke docs/project/history/
+- Memindahkan docs/project-onboarding/ ke docs/project/onboarding/
+- Membuat docs/project/README.md
+- Mengupdate semua referensi path lama ke path baru
+- Membuat struktur docs/ lebih rapi dan scalable
 
 ## Next Recommended Step
 

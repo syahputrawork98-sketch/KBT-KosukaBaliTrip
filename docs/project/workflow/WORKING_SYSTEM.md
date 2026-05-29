@@ -58,7 +58,7 @@ Tugas Antigravity Agent:
 
 Gemini 3.1 Pro Low digunakan untuk pekerjaan ringan dan terarah.
 
-Detail aturan penggunaan model dijelaskan di `docs/project-workflow/MODEL_USAGE_GUIDE.md`.
+Detail aturan penggunaan model dijelaskan di `docs/project/workflow/MODEL_USAGE_GUIDE.md`.
 
 Contoh penggunaan:
 - Membuat file sederhana
@@ -70,7 +70,7 @@ Contoh penggunaan:
 
 Gemini 3.1 Pro High digunakan untuk pekerjaan yang lebih kompleks.
 
-Detail aturan penggunaan model dijelaskan di `docs/project-workflow/MODEL_USAGE_GUIDE.md`.
+Detail aturan penggunaan model dijelaskan di `docs/project/workflow/MODEL_USAGE_GUIDE.md`.
 
 Contoh penggunaan:
 - Menyusun struktur yang lebih besar
