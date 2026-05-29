@@ -126,11 +126,11 @@ Satu file history digunakan untuk merangkum 10 batch.
 
 ## Batch 002 — Project Onboarding Instructions
 
-Status: In Progress
+Status: Completed
 
 Commit hash:
 ```txt
-Pending
+3e9a93bf4a488fc35043b3a1ca38fb9289ced1dc
 ```
 
 Date:
@@ -165,6 +165,66 @@ Membuat dokumentasi onboarding project agar instruksi setup ChatGPT Project, Roo
 
 ### Result
 
+Batch 002 berhasil diselesaikan.
+
+### Review Notes
+
+Commit hash sudah diberikan ke Room Chat 00. Review detail dapat dilakukan oleh Room Chat 01 berdasarkan commit hash yang tercatat.
+
+### Next Step
+
+Melanjutkan ke Batch 003 untuk membuat model usage guide.
+
+### Notes
+
+Folder project-onboarding digunakan sebagai tempat instruksi copy-paste untuk migrasi akun ChatGPT dan setup room chat baru.
+
+---
+
+## Batch 003 — Model Usage Guide
+
+Status: In Progress
+
+Commit hash:
+```txt
+Pending
+```
+
+Date:
+```txt
+2026-05-29
+```
+
+### Objective
+
+Membuat panduan penggunaan model AI dalam workflow project Kosuka Bali Trip agar Room Chat 00, Room Chat 01, dan user dapat menentukan model eksekusi yang sesuai.
+
+### Scope
+- Membuat docs/project-workflow/MODEL_USAGE_GUIDE.md
+- Mengupdate docs/project-workflow/README.md
+- Mengupdate docs/project-workflow/WORKING_SYSTEM.md
+- Mengupdate docs/project-onboarding/CHATGPT_PROJECT_INSTRUCTIONS.md
+- Mengupdate docs/project-onboarding/ROOM_00_MANAGER_PROMPT.md
+- Mengupdate docs/project-onboarding/ROOM_01_REVIEWER_PROMPT.md
+- Mengupdate docs/project-history/CURRENT_STATUS.md
+- Mengupdate docs/project-history/BATCH_000_TO_010.md
+- Mengupdate docs/README.md
+
+### Files Created
+- docs/project-workflow/MODEL_USAGE_GUIDE.md
+
+### Files Updated
+- docs/project-workflow/README.md
+- docs/project-workflow/WORKING_SYSTEM.md
+- docs/project-onboarding/CHATGPT_PROJECT_INSTRUCTIONS.md
+- docs/project-onboarding/ROOM_00_MANAGER_PROMPT.md
+- docs/project-onboarding/ROOM_01_REVIEWER_PROMPT.md
+- docs/project-history/CURRENT_STATUS.md
+- docs/project-history/BATCH_000_TO_010.md
+- docs/README.md
+
+### Result
+
 Pending.
 
 ### Review Notes
@@ -173,34 +233,11 @@ Pending review.
 
 ### Next Step
 
-Setelah Batch 002 selesai, user melakukan commit dan push, lalu mengirim commit hash ke Room Chat 00 untuk review.
+Setelah Batch 003 selesai, user melakukan commit dan push, lalu mengirim commit hash ke Room Chat 00 untuk review.
 
 ### Notes
 
-Folder project-onboarding digunakan sebagai tempat instruksi copy-paste untuk migrasi akun ChatGPT dan setup room chat baru.
-
----
-
-## Batch 003 — Pending
-
-Status: Planned
-
-Commit hash:
-```txt
-Pending
-```
-
-### Objective
-
-Pending.
-
-### Scope
-
-Pending.
-
-### Result
-
-Pending.
+Model utama project adalah Gemini 3.1 Pro Low dan Gemini 3.1 Pro High. Model alternatif hanya digunakan untuk Acceleration Mode jika user menyetujui.
 
 ---
 

@@ -37,6 +37,19 @@ Sebelum melakukan review, pahami dokumen berikut:
 7. `docs/project-history/CURRENT_STATUS.md`
 8. File batch history yang relevan, misalnya `docs/project-history/BATCH_000_TO_010.md`
 9. `docs/project-onboarding/README.md`
+10. `docs/project-workflow/MODEL_USAGE_GUIDE.md`
+
+## Tugas Rekomendasi Model
+
+Jika user atau Room Chat 00 meminta percepatan, Room Chat 01 boleh memberi rekomendasi model berdasarkan:
+- Ukuran batch
+- Risiko perubahan
+- Jumlah file yang berubah
+- Kebutuhan reasoning
+- Kebutuhan kecepatan
+- Apakah pekerjaan final atau draft
+
+Room Chat 01 tidak menentukan keputusan final. Room Chat 01 hanya memberi rekomendasi.
 
 ## Aturan Kerja
 

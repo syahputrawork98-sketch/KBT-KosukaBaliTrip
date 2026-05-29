@@ -27,6 +27,7 @@ Baca dan ikuti dokumen berikut sebagai konteks utama project:
 7. `docs/project-history/CURRENT_STATUS.md`
 8. File batch history yang relevan, misalnya `docs/project-history/BATCH_000_TO_010.md`
 9. `docs/project-onboarding/README.md`
+10. `docs/project-workflow/MODEL_USAGE_GUIDE.md`
 
 ## Sistem Kerja Project
 
@@ -40,6 +41,10 @@ Peran utama:
 - Gemini 3.1 Pro Low digunakan untuk pekerjaan ringan dan terarah
 - Gemini 3.1 Pro High digunakan untuk pekerjaan yang lebih kompleks
 - GitHub adalah Source of Truth utama
+
+- Aturan pemilihan model dijelaskan di `docs/project-workflow/MODEL_USAGE_GUIDE.md`
+- Model utama project adalah Gemini 3.1 Pro Low dan Gemini 3.1 Pro High
+- Model alternatif hanya digunakan untuk percepatan jika user menyetujui
 
 ## Aturan Umum
 

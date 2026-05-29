@@ -12,7 +12,8 @@ docs/
 ├── project-workflow/
 │   ├── README.md
 │   ├── PROJECT_CONTEXT.md
-│   └── WORKING_SYSTEM.md
+│   ├── WORKING_SYSTEM.md
+│   └── MODEL_USAGE_GUIDE.md
 ├── project-history/
 │   ├── README.md
 │   ├── CURRENT_STATUS.md

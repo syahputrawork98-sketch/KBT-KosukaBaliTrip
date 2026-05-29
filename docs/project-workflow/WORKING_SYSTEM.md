@@ -58,6 +58,8 @@ Tugas Antigravity Agent:
 
 Gemini 3.1 Pro Low digunakan untuk pekerjaan ringan dan terarah.
 
+Detail aturan penggunaan model dijelaskan di `docs/project-workflow/MODEL_USAGE_GUIDE.md`.
+
 Contoh penggunaan:
 - Membuat file sederhana
 - Mengubah teks dokumentasi
@@ -68,11 +70,23 @@ Contoh penggunaan:
 
 Gemini 3.1 Pro High digunakan untuk pekerjaan yang lebih kompleks.
 
+Detail aturan penggunaan model dijelaskan di `docs/project-workflow/MODEL_USAGE_GUIDE.md`.
+
 Contoh penggunaan:
 - Menyusun struktur yang lebih besar
 - Refactor yang perlu pertimbangan lebih banyak
 - Membuat beberapa file yang saling berkaitan
 - Menjalankan instruksi yang membutuhkan pemahaman konteks lebih dalam
+
+### Alternative Acceleration Models
+
+Model alternatif dapat digunakan hanya jika user ingin percepatan atau ingin memanfaatkan token yang tersedia.
+
+Model alternatif bukan default utama project.
+
+Penggunaan model alternatif harus tetap mengikuti instruksi Room Chat 00 dan hasilnya tetap perlu direview oleh Room Chat 01.
+
+Jika model alternatif digunakan, catat model yang dipakai di project history pada bagian Notes.
 
 ## Alur Kerja
 

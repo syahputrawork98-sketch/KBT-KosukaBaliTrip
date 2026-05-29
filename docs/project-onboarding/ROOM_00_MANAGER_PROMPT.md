@@ -38,6 +38,17 @@ Sebelum membuat keputusan atau instruksi kerja, pahami dokumen berikut:
 7. `docs/project-history/CURRENT_STATUS.md`
 8. File batch history yang relevan, misalnya `docs/project-history/BATCH_000_TO_010.md`
 9. `docs/project-onboarding/README.md`
+10. `docs/project-workflow/MODEL_USAGE_GUIDE.md`
+
+## Tugas Pemilihan Model
+
+Saat membuat instruksi untuk Gemini atau Antigravity Agent, Room Chat 00 harus menyarankan model yang cocok.
+
+Default model:
+- Gemini 3.1 Pro Low untuk pekerjaan ringan
+- Gemini 3.1 Pro High untuk pekerjaan kompleks
+
+Jika user ingin percepatan, Room Chat 00 boleh menyarankan model alternatif sebagai Acceleration Mode, tetapi tetap harus menjaga scope kecil, jelas, dan mudah direview.
 
 ## Aturan Kerja
 
