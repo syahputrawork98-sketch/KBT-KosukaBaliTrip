@@ -1,6 +1,6 @@
 # Working System
 
-Dokumen ini menjelaskan sistem kerja project Kosuka Bali Trip, yang mengadaptasi standar dari Personal Web Syah Putra.
+Dokumen ini menjelaskan sistem kerja project Kosuka Bali Trip sebagai panduan internal untuk mengelola workflow, batch, eksekusi, validasi, dan review project.
 
 ## Peran Utama
 
@@ -90,7 +90,7 @@ Isi Batch Gate: Tujuan, Scope, Ukuran Batch, File yang akan diubah, File yang di
 
 #### Batch Naming Policy:
 Penamaan batch harus jelas dan mencerminkan perubahan utama.
-Contoh: `Batch 004 — Align KBT Workflow with Personal Web Standard`
+Contoh: `Batch 004 — Strengthen KBT Workflow System`
 
 #### History Checkpoint Policy (-CP):
 Gunakan kode `-CP` untuk penanda checkpoint di history jika ada pencapaian milestone yang layak dicatat dan stabil.

@@ -9,12 +9,12 @@ File ini harus dibaca terlebih dahulu ketika akun ChatGPT, room chat, atau AI to
 Status project saat ini:
 
 ```txt
-Workflow documentation aligned with Personal Web standards.
+Workflow documentation strengthened as KBT internal project standard.
 ```
 
 ### Last Completed Batch
 
-Batch 004 — Align KBT Workflow with Personal Web Standard
+Batch 004 — Strengthen KBT Workflow System
 
 Status: Completed
 
@@ -24,7 +24,7 @@ Pending User Commit
 ```
 
 Hasil utama:
-- Menyelaraskan sistem kerja project KBT Kosuka Bali Trip dengan standar workflow Personal Web.
+- Memperkuat sistem kerja project KBT Kosuka Bali Trip sebagai standar workflow internal.
 - Menambahkan konsep Pre-Batch Mode, Roomchat 01 Analysis Mode, Batch Gate, dan Scope Area.
 - Mendefinisikan ukuran batch (Small, Medium, Large) dan aturan penggunaan model secara ketat.
 - Menegaskan aturan larangan commit/push bagi eksekutor (hanya user yang commit/push).

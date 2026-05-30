@@ -241,7 +241,7 @@ Model utama project adalah Gemini 3.1 Pro Low dan Gemini 3.1 Pro High. Model alt
 
 ---
 
-## Batch 004 — Align KBT Workflow with Personal Web Standard
+## Batch 004 — Strengthen KBT Workflow System
 
 Status: Completed
 
@@ -257,7 +257,7 @@ Date:
 
 ### Objective
 
-Menyelaraskan sistem kerja dokumentasi project KBT Kosuka Bali Trip agar mengikuti standar workflow terbaru dari project Personal Web Syah Putra.
+Memperkuat sistem kerja dokumentasi project KBT Kosuka Bali Trip agar memiliki standar internal yang jelas, aman, bertahap, dan mudah divalidasi.
 
 ### Scope
 - Mengupdate WORKING_SYSTEM.md dengan konsep Pre-Batch Mode, Analysis Mode, Batch Gate, Scope Area, dan ukuran batch.
@@ -294,6 +294,28 @@ User commit dan push, kemudian lanjut ke diskusi Pre-Batch Mode untuk tahap sela
 ### Notes
 
 Eksekutor AI dilarang keras melakukan commit dan push. Pengecekan hasil dilakukan oleh user di Anti-Gravity IDE.
+
+---
+
+## Batch 004A — Neutralize External Project References
+
+Status: Completed after execution, pending user commit.
+
+### Objective
+
+Membersihkan referensi eksplisit ke project eksternal agar dokumentasi KBT berdiri sebagai standar internal KBT.
+
+### Scope
+
+- Membersihkan penyebutan Personal Web dari dokumentasi KBT.
+- Menetralkan nama Batch 004.
+- Menjaga isi workflow tetap sama.
+
+### Result
+
+- Dokumentasi KBT tidak lagi bergantung pada penyebutan project eksternal.
+- Workflow tetap menggunakan sistem batch, Batch Gate, Pre-Batch Mode, Roomchat 01 Analysis Mode, dan larangan commit/push oleh eksekutor.
+- Tidak ada perubahan frontend, backend, dependency, atau deployment.
 
 ---
 
