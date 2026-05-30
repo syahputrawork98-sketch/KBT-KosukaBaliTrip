@@ -9,37 +9,34 @@ File ini harus dibaca terlebih dahulu ketika akun ChatGPT, room chat, atau AI to
 Status project saat ini:
 
 ```txt
-Workflow documentation strengthened as KBT internal project standard.
+Workflow documentation has been strengthened and completed with comprehensive internal operating rules.
 ```
 
 ### Last Completed Batch
 
-Batch 004 — Strengthen KBT Workflow System
+Batch 004A — Neutralize External Project References
 
 Status: Completed
 
-Commit hash:
-```txt
-Pending User Commit
-```
-
-Hasil utama:
-- Memperkuat sistem kerja project KBT Kosuka Bali Trip sebagai standar workflow internal.
-- Menambahkan konsep Pre-Batch Mode, Roomchat 01 Analysis Mode, Batch Gate, dan Scope Area.
-- Mendefinisikan ukuran batch (Small, Medium, Large) dan aturan penggunaan model secara ketat.
-- Menegaskan aturan larangan commit/push bagi eksekutor (hanya user yang commit/push).
-- Menegaskan Anti-Gravity IDE sebagai workspace utama untuk eksekusi dan validasi.
-
 ### Current Batch
 
-*(Tidak ada batch aktif, Batch 004 telah selesai)*
+Batch 004B — Complete KBT Workflow Operating Rules
+
+Status: Completed after execution, pending user commit
+
+Hasil utama:
+- Melengkapi aturan operasional workflow KBT secara komprehensif.
+- Menambahkan definisi rinci mengenai ukuran batch, Batch Gate, Batch Naming Policy, dan History Checkpoint Policy.
+- Mengupdate panduan penggunaan model berdasarkan ukuran batch dan risiko.
+- Menyediakan template siap pakai untuk eksekutor, review, dan Batch Gate.
+- Menjamin konsistensi internal tanpa ketergantungan pada referensi project eksternal.
 
 ## Next Recommended Step
 
-Setelah Batch 004 selesai dan user melakukan commit:
+Setelah Batch 004B selesai dan user melakukan commit:
 1. Pastikan user mengirim commit hash ke Room Chat 00.
 2. Lakukan diskusi Pre-Batch Mode jika ingin merencanakan arsitektur atau tahap selanjutnya.
-3. Buat Batch Gate baru jika sudah siap.
+3. Buat Batch Gate baru jika sudah siap melanjutkan pengembangan atau dokumentasi KBT.
 
 ## Important Notes
 

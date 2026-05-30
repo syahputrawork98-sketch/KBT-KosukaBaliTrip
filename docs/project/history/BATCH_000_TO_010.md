@@ -319,6 +319,43 @@ Membersihkan referensi eksplisit ke project eksternal agar dokumentasi KBT berdi
 
 ---
 
+## Batch 004B — Complete KBT Workflow Operating Rules
+
+Status:
+Completed after execution, pending user commit.
+
+### Objective:
+Melengkapi aturan operasional workflow KBT agar dokumentasi project memiliki sistem kerja internal yang matang, detail, aman, dan konsisten.
+
+### Scope:
+
+* Melengkapi prinsip utama workflow.
+* Melengkapi definisi Small, Medium, Large Batch.
+* Melengkapi Batch Gate.
+* Melengkapi Batch Naming Policy.
+* Melengkapi History Checkpoint Policy.
+* Melengkapi template instruksi eksekutor dan laporan eksekutor.
+* Melengkapi prompt Room Chat 00 dan Room Chat 01.
+
+### Files Updated:
+
+* docs/project/workflow/WORKING_SYSTEM.md
+* docs/project/workflow/MODEL_USAGE_GUIDE.md
+* docs/project/onboarding/CHATGPT_PROJECT_INSTRUCTIONS.md
+* docs/project/onboarding/ROOM_00_MANAGER_PROMPT.md
+* docs/project/onboarding/ROOM_01_REVIEWER_PROMPT.md
+* docs/project/history/CURRENT_STATUS.md
+* docs/project/history/BATCH_000_TO_010.md
+
+### Result:
+
+* Workflow KBT lebih lengkap dan siap digunakan untuk batch berikutnya.
+* Sistem kerja tetap berdiri sebagai standar internal KBT.
+* Tidak ada perubahan frontend, backend, dependency, atau deployment.
+* Eksekutor tidak melakukan commit/push.
+
+---
+
 ## Batch 005 — Pending
 
 Status: Planned
