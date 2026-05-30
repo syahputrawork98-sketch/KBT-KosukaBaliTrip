@@ -247,7 +247,7 @@ Status: Completed
 
 Commit hash:
 ```txt
-Pending User Commit
+Recorded in subsequent workflow completion commits.
 ```
 
 Date:
@@ -299,7 +299,12 @@ Eksekutor AI dilarang keras melakukan commit dan push. Pengecekan hasil dilakuka
 
 ## Batch 004A — Neutralize External Project References
 
-Status: Completed after execution, pending user commit.
+Status: Completed
+
+Commit hash:
+```txt
+a29bc0fce4f2d0e51f7e22456cb1523f61f07de5
+```
 
 ### Objective
 
@@ -321,8 +326,12 @@ Membersihkan referensi eksplisit ke project eksternal agar dokumentasi KBT berdi
 
 ## Batch 004B — Complete KBT Workflow Operating Rules
 
-Status:
-Completed after execution, pending user commit.
+Status: Completed
+
+Commit hash:
+```txt
+5497687ace44d54e9365552245af90dfdcede1bc
+```
 
 ### Objective:
 Melengkapi aturan operasional workflow KBT agar dokumentasi project memiliki sistem kerja internal yang matang, detail, aman, dan konsisten.
@@ -353,6 +362,35 @@ Melengkapi aturan operasional workflow KBT agar dokumentasi project memiliki sis
 * Sistem kerja tetap berdiri sebagai standar internal KBT.
 * Tidak ada perubahan frontend, backend, dependency, atau deployment.
 * Eksekutor tidak melakukan commit/push.
+
+---
+
+## Batch 004C — Sync KBT Workflow Status After Commits
+
+Status: Completed after execution, pending user commit.
+
+### Objective:
+Menyinkronkan CURRENT_STATUS.md dan batch history setelah Batch 004B selesai dicommit oleh user.
+
+### Scope:
+
+* Update CURRENT_STATUS.md agar Batch 004B menjadi Last Completed Batch.
+* Memasukkan commit hash Batch 004B.
+* Menandai Current Batch sebagai tidak ada batch aktif.
+* Membersihkan status pending user commit yang sudah tidak relevan.
+* Menambahkan catatan Batch 004C ke history.
+
+### Files Updated:
+
+* docs/project/history/CURRENT_STATUS.md
+* docs/project/history/BATCH_000_TO_010.md
+
+### Result:
+
+* Status aktif project lebih akurat.
+* History workflow Batch 004 sampai 004B lebih sinkron.
+* Project siap masuk ke Pre-Batch Mode untuk tahap berikutnya.
+* Tidak ada perubahan frontend, backend, dependency, atau deployment.
 
 ---
 

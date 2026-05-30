@@ -9,20 +9,19 @@ File ini harus dibaca terlebih dahulu ketika akun ChatGPT, room chat, atau AI to
 Status project saat ini:
 
 ```txt
-Workflow documentation has been strengthened and completed with comprehensive internal operating rules.
+Workflow documentation foundation completed and ready for the next Pre-Batch planning phase.
 ```
 
 ### Last Completed Batch
 
-Batch 004A — Neutralize External Project References
+Batch 004B — Complete KBT Workflow Operating Rules
 
 Status: Completed
 
-### Current Batch
-
-Batch 004B — Complete KBT Workflow Operating Rules
-
-Status: Completed after execution, pending user commit
+Commit hash:
+```txt
+5497687ace44d54e9365552245af90dfdcede1bc
+```
 
 Hasil utama:
 - Melengkapi aturan operasional workflow KBT secara komprehensif.
@@ -31,12 +30,16 @@ Hasil utama:
 - Menyediakan template siap pakai untuk eksekutor, review, dan Batch Gate.
 - Menjamin konsistensi internal tanpa ketergantungan pada referensi project eksternal.
 
+### Current Batch
+
+*(Tidak ada batch aktif)*
+
 ## Next Recommended Step
 
-Setelah Batch 004B selesai dan user melakukan commit:
-1. Pastikan user mengirim commit hash ke Room Chat 00.
-2. Lakukan diskusi Pre-Batch Mode jika ingin merencanakan arsitektur atau tahap selanjutnya.
-3. Buat Batch Gate baru jika sudah siap melanjutkan pengembangan atau dokumentasi KBT.
+- Gunakan Pre-Batch Mode untuk menentukan tahap berikutnya.
+- Jika user sudah setuju melanjutkan, Room Chat 00 wajib membuat Batch Gate baru.
+- Jangan lanjut ke frontend/backend sebelum tujuan batch berikutnya jelas.
+- Gunakan CURRENT_STATUS.md sebagai patokan status aktif.
 
 ## Important Notes
 
