@@ -241,71 +241,59 @@ Model utama project adalah Gemini 3.1 Pro Low dan Gemini 3.1 Pro High. Model alt
 
 ---
 
-## Batch 004 — Reorganize Project Documentation Structure
+## Batch 004 — Align KBT Workflow with Personal Web Standard
 
-Status: In Progress
+Status: Completed
 
 Commit hash:
 ```txt
-Pending
+Pending User Commit
 ```
 
 Date:
 ```txt
-2026-05-29
+2026-05-30
 ```
 
 ### Objective
 
-Merapikan struktur dokumentasi agar seluruh dokumentasi manajemen project berada di dalam docs/project/.
+Menyelaraskan sistem kerja dokumentasi project KBT Kosuka Bali Trip agar mengikuti standar workflow terbaru dari project Personal Web Syah Putra.
 
 ### Scope
-- Memindahkan docs/project-workflow/ ke docs/project/workflow/
-- Memindahkan docs/project-history/ ke docs/project/history/
-- Memindahkan docs/project-onboarding/ ke docs/project/onboarding/
-- Membuat docs/project/README.md
-- Mengupdate docs/README.md
-- Mengupdate semua referensi path lama ke path baru
-- Mengupdate docs/project/history/CURRENT_STATUS.md
-- Mengupdate docs/project/history/BATCH_000_TO_010.md
+- Mengupdate WORKING_SYSTEM.md dengan konsep Pre-Batch Mode, Analysis Mode, Batch Gate, Scope Area, dan ukuran batch.
+- Mengupdate MODEL_USAGE_GUIDE.md dengan aturan spesifik Small/Medium/Large batch dan model acceleration.
+- Mengupdate CHATGPT_PROJECT_INSTRUCTIONS.md, ROOM_00_MANAGER_PROMPT.md, dan ROOM_01_REVIEWER_PROMPT.md untuk mempertegas peran dan larangan commit/push.
+- Mengupdate CURRENT_STATUS.md dan file history ini.
 
 ### Files Created
-- docs/project/README.md
-
-### Files Moved
-- docs/project-workflow/ → docs/project/workflow/
-- docs/project-history/ → docs/project/history/
-- docs/project-onboarding/ → docs/project/onboarding/
+- None
 
 ### Files Updated
-- docs/README.md
-- docs/project/README.md
-- docs/project/workflow/README.md
 - docs/project/workflow/WORKING_SYSTEM.md
 - docs/project/workflow/MODEL_USAGE_GUIDE.md
-- docs/project/history/README.md
-- docs/project/history/CURRENT_STATUS.md
-- docs/project/history/BATCH_000_TO_010.md
-- docs/project/onboarding/README.md
 - docs/project/onboarding/CHATGPT_PROJECT_INSTRUCTIONS.md
 - docs/project/onboarding/ROOM_00_MANAGER_PROMPT.md
 - docs/project/onboarding/ROOM_01_REVIEWER_PROMPT.md
+- docs/project/history/CURRENT_STATUS.md
+- docs/project/history/BATCH_000_TO_010.md
 
 ### Result
 
-Pending.
+Batch 004 berhasil diselesaikan oleh eksekutor.
+Tidak ada perubahan pada frontend, backend, dependency, atau deployment.
+Commit dan push dilakukan oleh user.
 
 ### Review Notes
 
-Pending review.
+Menunggu user memverifikasi perubahan di Anti-Gravity IDE dan melakukan commit.
 
 ### Next Step
 
-Setelah Batch 004 selesai, user melakukan commit dan push, lalu mengirim commit hash ke Room Chat 00 untuk review.
+User commit dan push, kemudian lanjut ke diskusi Pre-Batch Mode untuk tahap selanjutnya.
 
 ### Notes
 
-Restrukturisasi ini dilakukan agar folder docs/ tetap rapi sebelum nanti ditambah folder dokumentasi lain seperti frontend/, backend/, design/, content/, dan deployment/.
+Eksekutor AI dilarang keras melakukan commit dan push. Pengecekan hasil dilakukan oleh user di Anti-Gravity IDE.
 
 ---
 

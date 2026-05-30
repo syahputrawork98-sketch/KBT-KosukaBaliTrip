@@ -7,180 +7,65 @@ Panduan ini digunakan oleh User, Room Chat 00, Room Chat 01, Gemini, dan Antigra
 ## Prinsip Utama
 
 Model utama project ini adalah:
-
 - Gemini 3.1 Pro Low
 - Gemini 3.1 Pro High
 
 Kedua model ini menjadi pilihan default untuk pekerjaan project Kosuka Bali Trip di Antigravity Agent.
-
-Model lain boleh digunakan hanya sebagai model alternatif untuk percepatan, eksplorasi, atau kondisi tertentu, tetapi bukan default utama.
-
-GitHub tetap menjadi Source of Truth utama.
-
-Model apa pun yang digunakan tidak menjadi sumber kebenaran final. Status final project tetap ditentukan berdasarkan isi repository, commit hash, dan hasil review.
+Model lain (Alternative acceleration model) boleh digunakan hanya jika user meminta. Model alternatif tidak boleh menggantikan default tanpa persetujuan user.
+Penggunaan model alternatif wajib dicatat jika dipakai.
 
 ## Primary Models
 
 ### Gemini 3.1 Pro Low
-
-Gemini 3.1 Pro Low digunakan untuk pekerjaan ringan, kecil, dan terarah.
+Digunakan untuk **Small Batch**, risiko rendah, perubahan 1 sampai 3 file.
 
 Gunakan model ini untuk:
 - Edit dokumentasi ringan
-- Update file markdown sederhana
-- Update project history
-- Update current status
-- Membuat file kecil dengan scope jelas
-- Perubahan struktur kecil
+- Update project history atau status
+- Membuat/mengubah 1-3 file dengan scope jelas
 - Perbaikan typo atau wording
-- Pekerjaan yang instruksinya sangat spesifik dan risiko rendah
-
-Jangan gunakan model ini sebagai pilihan utama untuk pekerjaan yang membutuhkan banyak konteks, refactor besar, atau perubahan banyak file yang saling berkaitan.
+- Instruksi spesifik dan risiko rendah
 
 ### Gemini 3.1 Pro High
-
-Gemini 3.1 Pro High digunakan untuk pekerjaan yang lebih kompleks dan membutuhkan pemahaman konteks lebih dalam.
+Digunakan untuk **Medium Batch**, perubahan beberapa file, reasoning lebih kuat, atau struktur penting.
 
 Gunakan model ini untuk:
-- Membuat beberapa dokumen yang saling berkaitan
-- Menyusun instruksi besar
-- Perubahan struktur project
-- Perencanaan teknis
+- Menyusun struktur yang lebih besar atau beberapa dokumen terkait
 - Refactor yang membutuhkan pertimbangan
-- Pekerjaan dengan banyak file terkait
-- Pekerjaan yang berisiko sedang atau tinggi
-- Pekerjaan yang membutuhkan reasoning lebih kuat
+- Pekerjaan berisiko sedang atau tinggi
+- Pekerjaan yang membutuhkan pemahaman konteks mendalam
 
-Gemini 3.1 Pro High menjadi pilihan utama jika pekerjaan tidak bisa dikategorikan ringan.
+*Catatan: **Large Batch** harus dipecah menjadi beberapa batch yang lebih kecil (Small atau Medium) jika memungkinkan, untuk meminimalisir risiko.*
 
 ## Alternative Acceleration Models
 
-Selain dua model utama, user mungkin memiliki akses ke model lain di Antigravity Agent.
-
 Contoh model alternatif:
 - Gemini 3.1 Flash Medium
-- Gemini 3.5 Flash High
-- Gemini 3.5 Flash Low
 - Claude Sonnet 4.6 Thinking
-- Claude Opus 4.6 Thinking
-- GPT OSS 120B Medium
+- GPT OSS 120B Medium, dll.
 
-Model alternatif boleh digunakan ketika user secara eksplisit ingin percepatan atau ingin memanfaatkan token yang tersedia.
-
-Namun, model alternatif harus diperlakukan sebagai:
-
-- Acceleration model
-- Drafting helper
-- Exploration helper
-- Non-default executor
-
-Model alternatif tidak boleh menggantikan sistem utama kecuali user menyetujui secara eksplisit.
-
-## Acceleration Mode
-
-Acceleration Mode adalah kondisi ketika user ingin pekerjaan dilakukan lebih cepat atau ingin memanfaatkan model/token tambahan.
-
-Acceleration Mode boleh digunakan untuk:
-- Draft awal dokumentasi
-- Eksplorasi ide
-- Alternatif struktur
-- Pekerjaan non-final
-- Pekerjaan berisiko rendah
-- Pekerjaan yang tetap akan direview oleh Room Chat 01
-
-Acceleration Mode tidak disarankan untuk:
-- Perubahan struktur besar tanpa review
-- Setup framework
-- Refactor besar
-- File penting yang menentukan arsitektur
-- Perubahan yang sulit dibatalkan
-- Pekerjaan yang belum jelas scope-nya
-
-## Model Selection Rule
-
-Gunakan aturan berikut saat memilih model:
-
-### Gunakan Gemini 3.1 Pro Low jika:
-
-- Scope kecil
-- Risiko rendah
-- File sedikit
-- Instruksi sangat jelas
-- Perubahan mudah dicek
-- Tidak perlu banyak reasoning
-
-### Gunakan Gemini 3.1 Pro High jika:
-
-- Scope sedang atau besar
-- Risiko sedang atau tinggi
-- File saling berkaitan
-- Perlu pemahaman konteks project
-- Perlu reasoning lebih kuat
-- Perubahan akan menjadi pondasi penting
-
-### Gunakan model alternatif jika:
-
-- User meminta percepatan
-- User ingin memanfaatkan token yang tersedia
-- Pekerjaan bersifat draft atau eksplorasi
-- Hasilnya tetap akan dicek ulang
-- Room Chat 00 menyetujui scope kerja
-- Room Chat 01 tetap melakukan review setelah commit
+Aturan penggunaan:
+- **Hanya digunakan jika user meminta.**
+- Tidak boleh menggantikan model default secara sepihak.
+- Harus dicatat penggunaannya di bagian Notes pada file history.
+- Tetap harus direview oleh Room Chat 01 setelah eksekusi.
 
 ## Role of Room Chat 00
 
 Room Chat 00 bertugas menentukan model yang disarankan untuk eksekusi.
+**Penting:** Room Chat 00 memberi rekomendasi model hanya saat membuat instruksi final (Batch Gate) untuk eksekusi, bukan saat Pre-Batch Mode.
 
-Saat membuat instruksi untuk Antigravity Agent atau Gemini, Room Chat 00 harus mempertimbangkan:
-- Ukuran batch
-- Jumlah file yang berubah
-- Risiko perubahan
-- Kebutuhan reasoning
-- Kebutuhan kecepatan
-- Apakah pekerjaan final atau draft
-
-Room Chat 00 boleh merekomendasikan:
-- Gemini 3.1 Pro Low
-- Gemini 3.1 Pro High
-- Alternative acceleration model
-
-Namun keputusan akhir tetap ada pada user.
+Room Chat 00 menentukan ukuran batch (Small/Medium) dan merekomendasikan:
+- Gemini 3.1 Pro Low (Small Batch)
+- Gemini 3.1 Pro High (Medium Batch)
 
 ## Role of Room Chat 01
 
-Room Chat 01 bertugas memberi analisa dan rekomendasi model jika user meminta percepatan atau jika Room Chat 00 membutuhkan pertimbangan teknis.
-
-Room Chat 01 dapat menilai:
-- Apakah pekerjaan cocok untuk Pro Low
-- Apakah pekerjaan butuh Pro High
-- Apakah aman memakai model alternatif
-- Apakah pekerjaan perlu review lebih ketat
-- Apakah perubahan terlalu berisiko untuk acceleration mode
-
-Room Chat 01 tidak menentukan keputusan final. Room Chat 01 hanya memberi rekomendasi.
-
-## Recording Model Usage
-
-Jika model alternatif digunakan, catat di project history pada bagian Notes.
-
-Format catatan:
-
-```txt
-Model used: <model name>
-Mode: Normal / Acceleration
-Reason: <alasan singkat>
-```
-
-Untuk Gemini 3.1 Pro Low dan Gemini 3.1 Pro High, pencatatan model tidak wajib, tetapi boleh dicatat jika batch dianggap penting.
+Room Chat 01 boleh memberi warning atau analisa risiko jika model yang dipakai/disarankan tidak sesuai dengan tingkat risiko pekerjaan.
+Room Chat 01 tidak menentukan keputusan final, hanya memberikan peringatan dan review.
 
 ## Safety Rule
 
-Apa pun model yang digunakan:
-
-- Jangan mengerjakan hal di luar instruksi
-- Jangan membuat asumsi besar
-- Jangan menghapus file tanpa instruksi eksplisit
-- Jangan install dependency tanpa instruksi eksplisit
-- Jangan setup framework tanpa keputusan Room Chat 00 dan user
-- Jangan menganggap output model sebagai final sebelum dicek
-- Gunakan GitHub dan commit hash sebagai acuan akhir
+- Jangan mengerjakan hal di luar instruksi.
+- Gunakan GitHub dan commit hash sebagai acuan akhir.
+- Eksekutor tidak boleh melakukan commit dan push.

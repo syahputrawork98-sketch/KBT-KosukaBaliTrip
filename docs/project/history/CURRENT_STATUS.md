@@ -9,54 +9,40 @@ File ini harus dibaca terlebih dahulu ketika akun ChatGPT, room chat, atau AI to
 Status project saat ini:
 
 ```txt
-Foundation structure completed.
-Project history system is being prepared.
+Workflow documentation aligned with Personal Web standards.
 ```
 
 ### Last Completed Batch
 
-Batch 003 — Model Usage Guide
+Batch 004 — Align KBT Workflow with Personal Web Standard
 
 Status: Completed
 
 Commit hash:
 ```txt
-3aadeafd4832a1bff88906b731aa7ca8730ded18
+Pending User Commit
 ```
 
 Hasil utama:
-- Membuat docs/project/workflow/MODEL_USAGE_GUIDE.md
-- Menjelaskan aturan penggunaan Gemini 3.1 Pro Low
-- Menjelaskan aturan penggunaan Gemini 3.1 Pro High
-- Menjelaskan penggunaan model alternatif sebagai Acceleration Mode
-- Mengupdate onboarding prompt agar memahami aturan pemilihan model
+- Menyelaraskan sistem kerja project KBT Kosuka Bali Trip dengan standar workflow Personal Web.
+- Menambahkan konsep Pre-Batch Mode, Roomchat 01 Analysis Mode, Batch Gate, dan Scope Area.
+- Mendefinisikan ukuran batch (Small, Medium, Large) dan aturan penggunaan model secara ketat.
+- Menegaskan aturan larangan commit/push bagi eksekutor (hanya user yang commit/push).
+- Menegaskan Anti-Gravity IDE sebagai workspace utama untuk eksekusi dan validasi.
 
 ### Current Batch
 
-Batch 004 — Reorganize Project Documentation Structure
-
-Status: In Progress
-
-Tujuan:
-- Memindahkan docs/project-workflow/ ke docs/project/workflow/
-- Memindahkan docs/project-history/ ke docs/project/history/
-- Memindahkan docs/project-onboarding/ ke docs/project/onboarding/
-- Membuat docs/project/README.md
-- Mengupdate semua referensi path lama ke path baru
-- Membuat struktur docs/ lebih rapi dan scalable
+*(Tidak ada batch aktif, Batch 004 telah selesai)*
 
 ## Next Recommended Step
 
-Setelah Batch 001 selesai:
-
-1. Commit dan push hasil pekerjaan.
-2. Kirim commit hash ke Room Chat 00.
-3. Room Chat 00 meminta Room Chat 01 melakukan review.
-4. Jika valid, update status Batch 001 menjadi completed.
-5. Lanjut ke batch berikutnya.
+Setelah Batch 004 selesai dan user melakukan commit:
+1. Pastikan user mengirim commit hash ke Room Chat 00.
+2. Lakukan diskusi Pre-Batch Mode jika ingin merencanakan arsitektur atau tahap selanjutnya.
+3. Buat Batch Gate baru jika sudah siap.
 
 ## Important Notes
 
-- Jangan lanjut ke development frontend atau backend sebelum sistem dokumentasi project stabil.
-- Jangan membuat framework atau setup package sebelum ada keputusan dari Room Chat 00.
+- **Jangan lanjut ke development frontend atau backend** sebelum workflow dokumentasi ini benar-benar stabil dan dipahami.
+- Eksekutor (Gemini Anti-Gravity) **DILARANG** melakukan commit dan push.
 - GitHub tetap menjadi Source of Truth utama.
