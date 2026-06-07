@@ -4,16 +4,19 @@
 Melakukan refactor visual awal pada landing page KBT berdasarkan feedback user menuju arah "Casual Luxury". Fokus tahap ini adalah pada Hero Section dan Card Packages sebagai proof of concept.
 
 ## Status
-In Progress / Proof of concept
+Completed / Checkpoint ready
 
 ## Story
-Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan sebelumnya dirasa terlalu berat/vintage dan struktur antarmukanya dirasa kaku seperti panel admin. Karena target pasar utamanya adalah wisatawan Australia dan Eropa, KBT membutuhkan arah visual yang lebih elegan, modern, luas (*spacious*), bersih, namun tetap terkesan mewah tapi kasual (*casual luxury*). Perbaikan pada batch ini menggeser *tone* desain agar lebih premium namun *approachable*, layaknya liburan santai yang terkurasi.
+F03 was created after user review found F02 visual too heavy, flat, and not fresh enough. Target market is Australia and Europe travelers, thus requiring a new direction.
+New accepted visual direction: Casual Luxury Bali Travel UI.
 
 ## Current State
-- `globals.css` telah diubah dengan palet yang lebih terang (*muted sage*, *soft background*, *sand/terracotta accent*).
-- `HeroSection` telah diubah menjadi layar penuh (*min-height 90vh*) dengan efek *overlay* dan *floating info bar*.
-- `TourPackagesPreview` telah disesuaikan agar bergaya kartu sudut membulat (*rounded-3xl*) dengan bayangan transparan tipis (*soft floating shadow*).
-- Komponen *Button* telah disegarkan menggunakan gaya kapsul (*rounded-full*).
+- Landing page uses Casual Luxury direction.
+- Hero is readable and accepted.
+- Navbar, sections, cards, vehicles, gallery, about, CTA, and footer are present.
+- Remote prototype images are used.
+- Images must be replaced with owned/curated assets before production.
+- Backend/database/CMS/auth/payment/deployment/i18n remain HOLD.
 
 ## Execution Notes (F03.0)
 - `globals.css` updated with Casual Luxury palette.
@@ -57,6 +60,12 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - No layout/design refactor.
 - No backend/database/CMS/auth/payment/deployment/i18n implemented.
 
+## Execution Notes (F03-CP)
+- Hero readability was fixed with a minimal approach after rejecting the heavy glass panel.
+- Open-source/remote prototype images were added.
+- Broken image URLs were fixed.
+- User accepted the current visual state with feedback: "ok segini sudah bagus".
+
 ## Sub-Batch Roadmap
 - F03.0 — Completed
 - F03.0A — Completed
@@ -65,7 +74,7 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - F03.1B — Rejected / Reworked
 - F03.1C — Completed
 - F03.1D — Completed
-- F03.2 — Planned after user review
+- F03-CP — Completed
 
 ## HOLD / Blocked Notes
 - Full multilingual/i18n (do not install i18n packages).
@@ -73,7 +82,12 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - Booking engine & real-time vehicle availability.
 
 ## Next Step
-User review of landing page after broken image fix.
+Recommended next step:
+User decision for next feature:
+- F04 — Mobile Responsiveness & Cross-Device Polish
+OR
+- F04 — Content/Copywriting Refinement
+OR HOLD
 
 ## Validation Checklist
 - [x] Refactor *Hero Section* dengan tata ruang visual penuh dan *overlay*.

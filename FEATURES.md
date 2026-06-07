@@ -6,11 +6,11 @@ Fitur-fitur ini dikelola melalui sistem batch (FXX).
 > **Catatan:** Project ini adalah project baru (greenfield). Fitur-fitur aplikasi di bawah ini masih berstatus **Planned** karena belum ada implementasi teknis.
 
 ## KBT Application Features
-- **Home / Landing Page**: Partial / Shell completed
-- **About Kosuka Bali Trip**: Partial / Static preview
-- **Tour Packages**: Partial / Static preview
-- **Destination Highlights**: Partial / Static preview
-- **Gallery**: Partial / Static preview
+- **Home / Landing Page**: Partial / Visual preview accepted
+- **About Kosuka Bali Trip**: Partial / Static visual preview accepted
+- **Tour Packages**: Partial / Static visual preview accepted
+- **Destination Highlights**: Partial / Static visual preview accepted
+- **Gallery**: Partial / Static visual preview accepted
 - **Contact / WhatsApp Inquiry**: Partial / CTA placeholder
 - **Vehicle Availability**: Partial / Static preview only, not real-time
 - **Booking Inquiry Form**: Planned
