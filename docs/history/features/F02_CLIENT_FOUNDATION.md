@@ -4,7 +4,14 @@
 Menyiapkan dokumen arah teknis client dan design system awal untuk website public KBT (Kosuka Bali Trip) sebelum setup framework client dilakukan.
 
 ## Status
-Planned / Ready for F02.1 after user approval
+In Progress
+
+## Execution Notes (F02.1)
+- `client/` directory has been initialized.
+- Next.js + TypeScript + Tailwind CSS successfully set up.
+- Validated via `npm run lint` and `npm run build` with success.
+- Minimal design tokens and placeholder added.
+- No backend/database/CMS/auth/payment/deployment/i18n implemented (all remain HOLD).
 
 ## Story
 Website KBT membutuhkan arah visual dan teknis yang jelas (Warm Tropical Premium) dengan pendekatan component-based UI menggunakan Next.js, TypeScript, dan Tailwind CSS. Ini penting agar saat coding dimulai, struktur token desain, styling, dan hierarki komponen sudah terpusat dan mudah dikelola.

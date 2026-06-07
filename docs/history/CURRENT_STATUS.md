@@ -8,8 +8,8 @@
 - **Default Executor Model:** Gemini 3.1 Pro High
 - **Main Language:** TypeScript
 - **Project Type:** Greenfield web project
-- **Active Batch:** F02.0 — Client Technical Direction & Design System Plan
-- **Frontend:** Planned / Client direction accepted
+- **Active Batch:** F02.1 — Client Framework Setup
+- **Frontend:** In Progress / Framework setup
 - **Backend:** Not started
 - **Database:** Not started
 - **Deployment:** Not started
@@ -23,7 +23,7 @@
 | F02 | Client Foundation & Design System | docs/frontend | Planned / Direction Accepted | Arah teknis frontend disiapkan | Lanjut ke F02.1 setelah user approve | features/F02_CLIENT_FOUNDATION.md |
 
 ## Next Recommended Step
-- F02.1 — Client Framework Setup (only after user approval).
+- F02.2 — Core UI Components after F02.1 acceptance
 
 ## Safety Rules
 - Jangan menyimpan credential/secret di repository.
