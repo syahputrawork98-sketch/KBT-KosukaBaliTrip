@@ -8,19 +8,19 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = "primary", size = "md", ...props }, ref) => {
-    const baseStyles = "inline-flex items-center justify-center rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none";
+    const baseStyles = "inline-flex items-center justify-center rounded-full font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none active:scale-[0.98]";
     
     const variants = {
-      primary: "bg-[var(--color-primary)] text-white hover:bg-[#0d645d] focus-visible:ring-[var(--color-primary)]",
-      secondary: "bg-[var(--color-coral)] text-white hover:bg-[#e06512] focus-visible:ring-[var(--color-coral)]",
+      primary: "bg-[var(--color-primary)] text-white hover:bg-opacity-90 shadow-sm focus-visible:ring-[var(--color-primary)]",
+      secondary: "bg-[var(--color-coral)] text-white hover:bg-opacity-90 shadow-sm focus-visible:ring-[var(--color-coral)]",
       outline: "border border-[var(--color-border)] bg-transparent hover:bg-[var(--color-muted)] text-[var(--color-foreground)]",
       ghost: "bg-transparent hover:bg-[var(--color-muted)] text-[var(--color-foreground)]",
     };
 
     const sizes = {
-      sm: "h-9 px-3 text-sm",
-      md: "h-10 py-2 px-4 text-base",
-      lg: "h-11 px-8 text-lg",
+      sm: "h-9 px-4 text-sm",
+      md: "h-11 py-2 px-6 text-base",
+      lg: "h-14 px-10 text-lg",
     };
 
     return (
