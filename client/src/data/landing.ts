@@ -11,10 +11,10 @@ import {
 } from "@/types/landing";
 
 export const trustValues: TrustValue[] = [
-  { title: "Private Tours", description: "Personalized experiences for you and your group.", iconLabel: "shield" },
-  { title: "Local Guidance", description: "Expert local drivers and guides.", iconLabel: "map" },
-  { title: "Flexible Itinerary", description: "Adjust your trip to your preferences.", iconLabel: "clock" },
-  { title: "WhatsApp Support", description: "Easy and direct communication.", iconLabel: "message" }
+  { title: "Easy WhatsApp Booking", description: "Direct and fast communication with our local team.", iconLabel: "message" },
+  { title: "Comfortable Transport", description: "Clean, air-conditioned vehicles for your journey.", iconLabel: "shield" },
+  { title: "Curated Destinations", description: "Handpicked locations for the best experience.", iconLabel: "map" },
+  { title: "Friendly Assistance", description: "Warm Balinese hospitality throughout your trip.", iconLabel: "clock" }
 ];
 
 // Images are remote prototype URLs from free-to-use stock photo sources and should be replaced with owned/curated project assets before production.
@@ -34,9 +34,9 @@ export const tourPackages: TourPackageItem[] = [
 ];
 
 export const vehicles: VehicleItem[] = [
-  { name: "Car with driver", capacity: "1-4 Passengers", useCase: "Couples & small groups", statusLabel: "Available by request" },
-  { name: "Family car / Van", capacity: "5-10 Passengers", useCase: "Families & large groups", statusLabel: "Available by request" },
-  { name: "Airport pickup", capacity: "Flexible", useCase: "Arrivals & departures", statusLabel: "Contact for schedule" }
+  { name: "Car with driver", capacity: "1-4 Passengers", useCase: "Couples & small groups", statusLabel: "Available by request", imageUrl: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=800&q=80", imageAlt: "Comfortable car ride" },
+  { name: "Family car / Van", capacity: "5-10 Passengers", useCase: "Families & large groups", statusLabel: "Available by request", imageUrl: "https://images.unsplash.com/photo-1511407397940-d57f68e81203?auto=format&fit=crop&w=800&q=80", imageAlt: "Family van on a road trip" },
+  { name: "Airport pickup", capacity: "Flexible", useCase: "Arrivals & departures", statusLabel: "Contact for schedule", imageUrl: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80", imageAlt: "Airplane landing at airport" }
 ];
 
 export const galleryItems: GalleryItem[] = [

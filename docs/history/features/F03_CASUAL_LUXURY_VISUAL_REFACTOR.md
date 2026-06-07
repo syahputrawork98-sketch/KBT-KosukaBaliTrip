@@ -27,19 +27,21 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - Hero background structure prepared for future real image (wrapper added, scenic gradient improved).
 - Mobile overlap spacing reviewed (bottom margin added to hero).
 
-## Execution Notes (F03.1)
-- Remote travel images added for local/prototype visual realism.
-- Hero image added via inline style `backgroundImage`.
-- Destination, package, and gallery images added using standard `<img>` tags.
-- Images use free-to-use stock sources for prototype (Unsplash URLs).
-- Important: Replace with owned/curated assets before production.
+## Execution Notes (F03.1A)
+- Hero readability fixed with stronger dark gradient overlay (Option A).
+- Remaining placeholders replaced: `VehicleItem` updated to support `imageUrl`, real transport and travel Unsplash images added for Vehicles and About section.
+- Typography/contrast improved: Navbar text sizing, footer readability, card descriptions set to `text-base`.
+- Navbar/footer polished: Larger logo, adjusted spacing, rounded buttons, and hover states.
+- Value proposition duplication resolved: TrustStrip values changed to complementary points (Booking, Transport, Destinations, Assistance).
+- Section spacing refined and validated.
 - No backend/database/CMS/auth/payment/deployment/i18n implemented.
 
 ## Sub-Batch Roadmap
 - F03.0 — Completed
 - F03.0A — Completed
 - F03.1 — Completed
-- F03.2 — Planned / Apply visual style across remaining sections or visual polish
+- F03.1A — Completed
+- F03.2 — Planned / Broader visual polish after user review
 
 ## HOLD / Blocked Notes
 - Full multilingual/i18n (do not install i18n packages).
@@ -47,7 +49,7 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - Booking engine & real-time vehicle availability.
 
 ## Next Step
-User review of image-enhanced Casual Luxury landing page.
+User review of polished image-enhanced landing page.
 
 ## Validation Checklist
 - [x] Refactor *Hero Section* dengan tata ruang visual penuh dan *overlay*.

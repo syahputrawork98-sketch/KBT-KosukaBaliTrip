@@ -19,8 +19,8 @@ export function HeroSection() {
         />
       </div>
       
-      {/* Dark Overlay for Text Readability */}
-      <div className="absolute inset-0 bg-black/25 -z-10" />
+      {/* Dark Overlay for Text Readability - Option A: Stronger gradient */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-black/10 -z-10" />
       
       <Container className="relative z-10 flex-1 flex flex-col justify-center pt-24 pb-32">
         <div className="max-w-3xl space-y-6">

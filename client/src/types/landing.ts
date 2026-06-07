@@ -30,6 +30,8 @@ export interface VehicleItem {
   capacity: string;
   useCase: string;
   statusLabel: string;
+  imageUrl?: string;
+  imageAlt?: string;
 }
 
 export interface GalleryItem {

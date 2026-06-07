@@ -22,8 +22,9 @@ export function AboutSection() {
               </p>
             </div>
           </div>
-          <div className="aspect-video bg-[var(--color-slate)] rounded-xl flex items-center justify-center shadow-lg">
-            <span className="text-white/50">Team / Vibe Image Placeholder</span>
+          <div className="aspect-video relative bg-[var(--color-slate)] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(0,0,0,0.1)]">
+            <img src="https://images.unsplash.com/photo-1516483638261-f40af5ba3227?auto=format&fit=crop&w=1200&q=80" alt="Traveler overlooking beautiful Bali landscape" className="absolute inset-0 w-full h-full object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
           </div>
         </div>
       </Container>

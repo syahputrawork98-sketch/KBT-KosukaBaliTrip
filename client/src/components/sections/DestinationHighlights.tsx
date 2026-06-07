@@ -27,9 +27,9 @@ export function DestinationHighlights() {
                   </div>
                 )}
               </div>
-              <CardHeader>
+              <CardHeader className="pt-6">
                 <CardTitle>{dest.name}</CardTitle>
-                <CardDescription>{dest.description}</CardDescription>
+                <CardDescription className="text-base mt-1">{dest.description}</CardDescription>
               </CardHeader>
             </Card>
           ))}
