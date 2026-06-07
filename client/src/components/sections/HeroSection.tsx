@@ -19,21 +19,21 @@ export function HeroSection() {
         />
       </div>
       
-      {/* Dark Overlays for Text Readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/25 to-black/10 -z-10" />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20 -z-10" />
+      {/* Light Overlays for Text Readability - Minimal Approach */}
+      <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/50 to-transparent -z-10" />
+      <div className="absolute inset-0 bg-white/20 -z-10" />
       
       <Container className="relative z-10 flex-1 flex flex-col justify-center pt-24 pb-32">
-        <div className="max-w-3xl space-y-6 bg-black/45 backdrop-blur-md rounded-3xl px-6 py-8 md:px-10 md:py-10 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.45)]">
-          <h1 className="text-5xl md:text-7xl font-serif font-medium text-white leading-tight tracking-tight">
+        <div className="max-w-3xl space-y-6">
+          <h1 className="text-5xl md:text-7xl font-serif font-medium text-[var(--color-foreground)] leading-tight tracking-tight drop-shadow-sm">
             Bali, arranged beautifully around you
           </h1>
-          <p className="text-lg md:text-xl text-white max-w-2xl font-light leading-relaxed">
+          <p className="text-lg md:text-xl text-[var(--color-slate)] max-w-2xl leading-relaxed">
             Private tours, flexible routes, and easy local support for travelers who want Bali to feel effortless.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button variant="primary" size="lg" className="bg-white text-[var(--color-primary)] hover:bg-gray-50 shadow-lg font-medium">Start Planning</Button>
-            <Button variant="outline" size="lg" className="border-white border-2 text-white hover:bg-white/20 font-medium">Explore Tours</Button>
+            <Button variant="primary" size="lg" className="bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary)]/90 shadow-lg font-medium">Start Planning</Button>
+            <Button variant="outline" size="lg" className="border border-[var(--color-primary)] text-[var(--color-primary)] bg-white/70 hover:bg-white font-medium">Explore Tours</Button>
           </div>
         </div>
       </Container>

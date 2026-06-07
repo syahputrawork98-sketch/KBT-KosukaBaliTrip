@@ -8,8 +8,8 @@
 - **Default Executor Model:** Gemini 3.1 Pro High
 - **Main Language:** TypeScript
 - **Project Type:** Greenfield web project
-- **Active Batch:** F03.1B — Hero Readability Hard Fix
-- **Frontend:** Needs Fix / Hero readability patch applied
+- **Active Batch:** F03.1C — Hero Minimal Readability Fix
+- **Frontend:** Needs Fix / Hero minimal readability fix
 - **Backend:** Not started
 - **Database:** Not started
 - **Deployment:** Not started
@@ -21,10 +21,10 @@
 | F00 | WPWK Workflow Foundation | docs/project | Completed | Fondasi workflow template WPWK (history) | Selesai, template diadaptasi ke KBT | features/F00_PROJECT_WORKFLOW_FOUNDATION.md |
 | F01 | KBT Project Foundation | docs | In Progress | Menyiapkan repo menjadi KBT (bukan lagi template) | Review F01 foundation, lalu lanjut technical planning | features/F01_KBT_PROJECT_FOUNDATION.md |
 | F02 | Client Foundation & Design System | docs/frontend | Completed / Checkpoint ready | Client foundation completed; backend/database/CMS/auth/payment/i18n still HOLD | Await user decision for F03 | features/F02_CLIENT_FOUNDATION.md |
-| F03 | Casual Luxury Visual Refactor | frontend/design | Needs Fix / Hero readability patch applied | Visual direction correction after user review | User review after F03.1B | features/F03_CASUAL_LUXURY_VISUAL_REFACTOR.md |
+| F03 | Casual Luxury Visual Refactor | frontend/design | Needs Fix / Hero minimal readability fix | Visual direction correction after user review | User review after F03.1C | features/F03_CASUAL_LUXURY_VISUAL_REFACTOR.md |
 
 ## Next Recommended Step
-- User review of Hero readability on localhost screenshot.
+- User review of hero after minimal color/readability fix.
 
 ## Safety Rules
 - Jangan menyimpan credential/secret di repository.

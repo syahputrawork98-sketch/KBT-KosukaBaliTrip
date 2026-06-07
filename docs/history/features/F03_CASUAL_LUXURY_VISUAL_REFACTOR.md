@@ -43,13 +43,22 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - Hero overlay adjusted to provide balanced global background dimming.
 - No backend/database/CMS/auth/payment/deployment/i18n implemented.
 
+## Execution Notes (F03.1C)
+- Removed F03.1B large text panel after user feedback.
+- Restored cleaner hero layout feel with open imagery.
+- Applied minimal font/CTA readability fix (dark text over a light gradient overlay).
+- CTA buttons adjusted to prominent primary teal (`bg-[var(--color-primary)]` and outline).
+- No broad section refactor.
+- No backend/database/CMS/auth/payment/deployment/i18n implemented.
+
 ## Sub-Batch Roadmap
 - F03.0 — Completed
 - F03.0A — Completed
 - F03.1 — Completed
 - F03.1A — Completed
-- F03.1B — Completed
-- F03.2 — Planned / Broader visual polish after user review
+- F03.1B — Rejected / Reworked
+- F03.1C — Completed
+- F03.2 — Planned after user review
 
 ## HOLD / Blocked Notes
 - Full multilingual/i18n (do not install i18n packages).
@@ -57,7 +66,7 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - Booking engine & real-time vehicle availability.
 
 ## Next Step
-User review of Hero readability on localhost screenshot.
+User review of Hero minimal readability fix.
 
 ## Validation Checklist
 - [x] Refactor *Hero Section* dengan tata ruang visual penuh dan *overlay*.
