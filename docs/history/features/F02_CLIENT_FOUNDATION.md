@@ -13,6 +13,13 @@ In Progress / F02.1 completed
 - Minimal design tokens and placeholder added.
 - No backend/database/CMS/auth/payment/deployment/i18n implemented (all remain HOLD).
 
+## Execution Notes (F02.2)
+- Core UI components created (Button, Badge, Card, WhatsAppButton, Container, Section, SectionHeading).
+- Component-based UI foundation started.
+- Design token usage continued in `globals.css` and component classes.
+- No full landing page yet (only component preview in `page.tsx`).
+- No backend/database/CMS/auth/payment/deployment/i18n implemented.
+
 ## Story
 Website KBT membutuhkan arah visual dan teknis yang jelas (Warm Tropical Premium) dengan pendekatan component-based UI menggunakan Next.js, TypeScript, dan Tailwind CSS. Ini penting agar saat coding dimulai, struktur token desain, styling, dan hierarki komponen sudah terpusat dan mudah dikelola.
 
@@ -29,8 +36,8 @@ Website KBT membutuhkan arah visual dan teknis yang jelas (Warm Tropical Premium
 - F02.0 — Completed
 - F02.1 — Completed
 - F02.1A — Completed
-- F02.2 — Next
-- F02.3 — Planned
+- F02.2 — Completed
+- F02.3 — Next
 - F02.4 — Planned
 - F02-CP — Planned
 

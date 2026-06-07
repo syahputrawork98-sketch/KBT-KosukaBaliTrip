@@ -8,8 +8,8 @@
 - **Default Executor Model:** Gemini 3.1 Pro High
 - **Main Language:** TypeScript
 - **Project Type:** Greenfield web project
-- **Active Batch:** F02.1A — Client Setup Documentation Sync
-- **Frontend:** Framework setup completed / Ready for core UI components
+- **Active Batch:** F02.2 — Core UI Components
+- **Frontend:** In Progress / Core UI components
 - **Backend:** Not started
 - **Database:** Not started
 - **Deployment:** Not started
@@ -22,8 +22,7 @@
 | F01 | KBT Project Foundation | docs | In Progress | Menyiapkan repo menjadi KBT (bukan lagi template) | Review F01 foundation, lalu lanjut technical planning | features/F01_KBT_PROJECT_FOUNDATION.md |
 | F02 | Client Foundation & Design System | docs/frontend | In Progress / Framework setup completed | Client foundation ready; backend/database/CMS/auth/payment/i18n still HOLD | F02.2 — Core UI Components | features/F02_CLIENT_FOUNDATION.md |
 
-## Next Recommended Step
-- F02.2 — Core UI Components
+- F02.3 — Landing Page Visual Shell after F02.2 acceptance
 
 ## Safety Rules
 - Jangan menyimpan credential/secret di repository.

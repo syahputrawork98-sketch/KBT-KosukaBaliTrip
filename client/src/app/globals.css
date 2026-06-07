@@ -7,6 +7,11 @@
   --color-sand: #FFF7ED;
   --color-coral: #F97316;
   --color-slate: #374151;
+  --color-muted: #F5F5F4;
+  --color-muted-foreground: #6B7280;
+  --color-border: #E5E7EB;
+  --color-card: #FFFFFF;
+  --color-card-foreground: #111827;
 }
 
 @theme inline {
@@ -18,12 +23,22 @@
   --color-sand: var(--color-sand);
   --color-coral: var(--color-coral);
   --color-slate: var(--color-slate);
+  --color-muted: var(--color-muted);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-border: var(--color-border);
+  --color-card: var(--color-card);
+  --color-card-foreground: var(--color-card-foreground);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #111827;
     --foreground: #F5F5F4;
+    --color-muted: #374151;
+    --color-muted-foreground: #9CA3AF;
+    --color-border: #374151;
+    --color-card: #1F2937;
+    --color-card-foreground: #F9FAFB;
   }
 }
 
