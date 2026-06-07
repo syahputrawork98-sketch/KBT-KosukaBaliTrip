@@ -8,8 +8,8 @@
 - **Default Executor Model:** Gemini 3.1 Pro High
 - **Main Language:** TypeScript
 - **Project Type:** Greenfield web project
-- **Active Batch:** F02.2A — Core UI Documentation Sync
-- **Frontend:** Core UI components completed / Ready for landing page shell
+- **Active Batch:** F02.3 — Landing Page Visual Shell
+- **Frontend:** In Progress / Landing page shell
 - **Backend:** Not started
 - **Database:** Not started
 - **Deployment:** Not started
@@ -20,10 +20,10 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | F00 | WPWK Workflow Foundation | docs/project | Completed | Fondasi workflow template WPWK (history) | Selesai, template diadaptasi ke KBT | features/F00_PROJECT_WORKFLOW_FOUNDATION.md |
 | F01 | KBT Project Foundation | docs | In Progress | Menyiapkan repo menjadi KBT (bukan lagi template) | Review F01 foundation, lalu lanjut technical planning | features/F01_KBT_PROJECT_FOUNDATION.md |
-| F02 | Client Foundation & Design System | docs/frontend | In Progress / Core UI components completed | Core UI foundation ready; backend/database/CMS/auth/payment/i18n still HOLD | F02.3 — Landing Page Visual Shell | features/F02_CLIENT_FOUNDATION.md |
+| F02 | Client Foundation & Design System | docs/frontend | In Progress / Landing page shell | Static landing shell in progress; backend/database/CMS/auth/payment/i18n still HOLD | F02.4 — Static Mock Data Structure after F02.3 acceptance | features/F02_CLIENT_FOUNDATION.md |
 
 ## Next Recommended Step
-- F02.3 — Landing Page Visual Shell
+- F02.4 — Static Mock Data Structure after F02.3 acceptance
 
 ## Safety Rules
 - Jangan menyimpan credential/secret di repository.
