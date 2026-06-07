@@ -11,9 +11,12 @@ export function HeroSection() {
         To use a real image later, replace the gradient div with an <img /> or next/image 
         while keeping the dark overlay div.
       */}
-      <div className="absolute inset-0 -z-20 overflow-hidden">
-        {/* Scenic Gradient Placeholder (Sky -> Ocean -> Sand) */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#A3C4D1] via-[#6FA3A0] to-[#E3D3C1]" />
+      <div className="absolute inset-0 -z-20 overflow-hidden bg-[#6FA3A0]">
+        {/* Real Prototype Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center" 
+          style={{ backgroundImage: `url("https://images.unsplash.com/photo-1537956965359-7573183d1f57?auto=format&fit=crop&w=2000&q=80")` }}
+        />
       </div>
       
       {/* Dark Overlay for Text Readability */}

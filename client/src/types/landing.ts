@@ -10,6 +10,8 @@ export interface DestinationItem {
   region?: string;
   tag?: string;
   colorClass: string;
+  imageUrl?: string;
+  imageAlt?: string;
 }
 
 export interface TourPackageItem {
@@ -19,6 +21,8 @@ export interface TourPackageItem {
   highlights: string[];
   priceLabel: string;
   badge?: string;
+  imageUrl?: string;
+  imageAlt?: string;
 }
 
 export interface VehicleItem {
@@ -32,6 +36,8 @@ export interface GalleryItem {
   title: string;
   location?: string;
   colorClass: string;
+  imageUrl?: string;
+  imageAlt?: string;
 }
 
 export interface LandingPageData {

@@ -19,9 +19,13 @@ export function TourPackagesPreview() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {tourPackages.map((tour, i) => (
             <Card key={i} className="flex flex-col group hover:shadow-[0_20px_50px_-12px_rgba(0,0,0,0.1)] transition-all duration-300">
-              {/* Image Placeholder */}
+              {/* Image Placeholder or Real Image */}
               <div className="h-48 w-full bg-[var(--color-muted)] relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-tr from-[var(--color-primary)]/20 to-transparent mix-blend-multiply" />
+                {tour.imageUrl ? (
+                  <img src={tour.imageUrl} alt={tour.imageAlt || tour.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                ) : (
+                  <div className="absolute inset-0 bg-gradient-to-tr from-[var(--color-primary)]/20 to-transparent mix-blend-multiply" />
+                )}
                 <div className="absolute top-4 left-4">
                   <Badge variant="soft" className="bg-white/90 backdrop-blur-sm text-[var(--color-primary)] border-none shadow-sm">
                     {tour.durationLabel}

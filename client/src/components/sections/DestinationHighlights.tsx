@@ -18,8 +18,14 @@ export function DestinationHighlights() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {destinations.map((dest, i) => (
             <Card key={i} className={`overflow-hidden border-none shadow-sm ${dest.colorClass}`}>
-              <div className="h-40 bg-black/5 flex items-center justify-center">
-                <span className="text-[var(--color-muted-foreground)] text-sm">Image Placeholder</span>
+              <div className="h-48 relative overflow-hidden bg-black/5">
+                {dest.imageUrl ? (
+                  <img src={dest.imageUrl} alt={dest.imageAlt || dest.name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-105" />
+                ) : (
+                  <div className="flex items-center justify-center w-full h-full">
+                    <span className="text-[var(--color-muted-foreground)] text-sm">Image Placeholder</span>
+                  </div>
+                )}
               </div>
               <CardHeader>
                 <CardTitle>{dest.name}</CardTitle>

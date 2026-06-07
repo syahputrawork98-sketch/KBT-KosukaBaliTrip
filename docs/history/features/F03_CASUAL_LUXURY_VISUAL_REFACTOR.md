@@ -26,10 +26,20 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - Package card no-price copy refined (from "Starting from" to "Trip style").
 - Hero background structure prepared for future real image (wrapper added, scenic gradient improved).
 - Mobile overlap spacing reviewed (bottom margin added to hero).
+
+## Execution Notes (F03.1)
+- Remote travel images added for local/prototype visual realism.
+- Hero image added via inline style `backgroundImage`.
+- Destination, package, and gallery images added using standard `<img>` tags.
+- Images use free-to-use stock sources for prototype (Unsplash URLs).
+- Important: Replace with owned/curated assets before production.
+- No backend/database/CMS/auth/payment/deployment/i18n implemented.
+
 ## Sub-Batch Roadmap
 - F03.0 — Completed
 - F03.0A — Completed
-- F03.1 — Planned / Pending user approval
+- F03.1 — Completed
+- F03.2 — Planned / Apply visual style across remaining sections or visual polish
 
 ## HOLD / Blocked Notes
 - Full multilingual/i18n (do not install i18n packages).
@@ -37,7 +47,7 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - Booking engine & real-time vehicle availability.
 
 ## Next Step
-User review of Casual Luxury POC before applying across all sections.
+User review of image-enhanced Casual Luxury landing page.
 
 ## Validation Checklist
 - [x] Refactor *Hero Section* dengan tata ruang visual penuh dan *overlay*.
