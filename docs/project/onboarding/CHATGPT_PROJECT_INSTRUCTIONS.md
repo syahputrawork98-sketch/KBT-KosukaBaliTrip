@@ -2,8 +2,11 @@
 
 Dokumen ini berisi instruksi siap copy-paste untuk setup Project (Custom Instructions) di ChatGPT.com.
 
-## Ringkasan Konteks WPWK
-WPWK — Web Project Workflow Kit adalah framework manajemen project web yang memisahkan peran antara Manager (Room 00), Reviewer (Room 01), Eksekutor (Gemini Anti-Gravity), dan User (Owner).
+## Ringkasan Konteks Project KBT
+Project ini adalah **KBT — Kosuka Bali Trip**, sebuah website travel & tour Bali yang dibangun dari nol (**greenfield project**).
+Bahasa utama yang akan digunakan adalah **TypeScript**.
+**WPWK** (Web Project Workflow Kit) hanya digunakan sebagai fondasi workflow dan sistem kontrol kerja (pemisahan peran antara Manager (Room 00), Reviewer (Room 01), Eksekutor (Gemini Anti-Gravity), dan User/Owner).
+Semua eksekusi teknis harus melalui batch kecil. **INI BUKAN PROJECT MIGRASI.**
 
 ## Urutan Baca Wajib untuk AI Baru
 Saat memulai project atau chat baru, AI wajib memahami konteks dengan membaca (atau meminta user memberikan) isi dari:

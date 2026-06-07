@@ -73,6 +73,8 @@ FEATURES project turunan sebaiknya berisi daftar fitur nyata:
 - Status fitur: Planned, In Progress, Completed, Partial, Blocked, HOLD
 
 ### Jenis Project Turunan (Project Type)
+> **PENTING UNTUK KBT:** Untuk KBT (Kosuka Bali Trip), jalur aktifnya adalah **Greenfield / Template-to-Project Adaptation**. Project ini dibuat dari nol menggunakan TypeScript. **Existing Project Adoption** atau Migrasi **bukan** jalur yang aktif untuk project ini.
+
 1. **Static / Landing Page**: Cocok untuk web tanpa backend.
 2. **Frontend-only Dynamic Website**: Cocok untuk web dinamis dengan API eksternal/BaaS.
 3. **Fullstack Single Role**: Cocok untuk aplikasi dengan satu jenis user (misal CMS admin saja atau user saja).

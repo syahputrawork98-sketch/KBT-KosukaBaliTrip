@@ -1,20 +1,27 @@
-# WPWK — Web Project Workflow Kit
+# KBT — Kosuka Bali Trip
 
-WPWK — Web Project Workflow Kit adalah template workflow untuk project web yang dikelola dengan mengintegrasikan ChatGPT, Gemini, Anti-Gravity IDE, dan GitHub sebagai Source of Truth. 
+KBT — Kosuka Bali Trip adalah website travel & tour Bali yang dibuat dari nol (greenfield project).
+Repository ini sebelumnya menggunakan template WPWK (Web Project Workflow Kit) sebagai fondasi workflow, namun saat ini sudah sepenuhnya diadaptasi menjadi repository project KBT.
 
-> **PENTING**: WPWK adalah template yang harus diadaptasi. File seperti `README.md` dan `FEATURES.md` ini wajib diganti isinya ketika digunakan pada project turunan agar mencerminkan detail project yang nyata (lihat aturan adaptasi pada `docs/project/workflow/WORKING_SYSTEM.md`).
+> **PENTING**: Project ini **BUKAN** project migrasi, dan **BUKAN** existing project adoption. Ini adalah project baru yang dibangun dari awal. Bahasa utama yang akan digunakan adalah **TypeScript**.
+
+## Project Info
+- **Project Name:** KBT — Kosuka Bali Trip
+- **Description:** Website travel & tour Bali
+- **Status:** Preparation / Foundation
+- **Project Type:** Greenfield TypeScript Web Project
 
 ## Struktur Repository
 
 Repository ini menggunakan struktur dokumentasi terpusat di dalam folder `docs/` untuk mengelola workflow, riwayat, dan panduan.
 
-- `docs/project/` - Dokumentasi utama project, onboarding, dan riwayat.
-- `docs/frontend/` - Dokumentasi khusus area frontend.
-- `docs/backend/` - Dokumentasi khusus area backend.
-- `docs/database/` - Dokumentasi khusus area database.
-- `docs/deployment/` - Dokumentasi khusus area deployment.
-- `client/` - Folder placeholder untuk aplikasi frontend website (belum berisi implementasi teknis).
-- `server/` - Folder placeholder untuk aplikasi backend, API, atau server logic (belum berisi implementasi teknis).
+- `docs/project/` - Dokumentasi utama project, onboarding, dan riwayat workflow.
+- `docs/frontend/` - Dokumentasi khusus area frontend (akan diisi saat coding dimulai).
+- `docs/backend/` - Dokumentasi khusus area backend/API (jika nanti dibutuhkan).
+- `docs/database/` - Dokumentasi khusus area database (jika nanti dibutuhkan).
+- `docs/deployment/` - Dokumentasi khusus area deployment (jika nanti dibutuhkan).
+- `client/` - Folder untuk aplikasi frontend website (belum ada implementasi teknis).
+- `server/` - Folder untuk aplikasi backend, API, atau server logic (belum ada implementasi teknis).
 
 ## Prinsip Utama
 
@@ -26,14 +33,10 @@ Repository ini menggunakan struktur dokumentasi terpusat di dalam folder `docs/`
    - **Gemini Anti-Gravity**: Eksekutor teknis di Anti-Gravity IDE.
 3. **Batch System**: Pengerjaan dibagi menjadi Feature Batch (FXX) dan Execution Batch.
 
-## Cara Menggunakan Template Ini
-
-1. Clone repository ini untuk memulai project web baru.
-2. Setup ChatGPT Project dengan panduan di `docs/project/onboarding/CHATGPT_PROJECT_INSTRUCTIONS.md`.
-3. Mulai inisiasi Room 00 dan Room 01 sesuai prompt yang tersedia.
-4. Update `CURRENT_STATUS.md` untuk mencerminkan project baru.
-5. Jalankan Feature Batch pertama.
+## Next Step
+- Menyelesaikan Batch F01 (KBT Project Foundation) untuk memastikan semua dokumentasi dan arah project clear.
+- Setelah foundation disetujui, lanjut ke technical planning dan inisialisasi framework.
 
 ## Status Awal Project
 
-Project WPWK saat ini sedang dalam tahap inisialisasi workflow foundation (Batch F00). Detail status dapat dilihat di `docs/history/CURRENT_STATUS.md`.
+Project KBT saat ini sedang dalam tahap inisialisasi project foundation (Batch F01). Detail status dapat dilihat di `docs/history/CURRENT_STATUS.md`.

@@ -4,6 +4,9 @@
 Jelaskan bahwa dokumen ini berisi skenario cara memakai WPWK dalam berbagai kondisi project. Tujuannya agar Roomchat 00 tidak memaksakan satu alur yang kaku untuk semua project.
 
 ## Prinsip Utama
+
+> **PENTING UNTUK KBT:** Untuk KBT (Kosuka Bali Trip), jalur aktifnya adalah **Greenfield / Template-to-Project Adaptation workflow**. Project ini dibuat murni dari nol. **Existing Project Adoption** dan skenario migrasi **bukan** jalur yang aktif untuk project KBT.
+
 - Pilih skenario berdasarkan kondisi project.
 - Roomchat 00 tetap manager utama.
 - Gemini Anti-Gravity tetap eksekutor.
