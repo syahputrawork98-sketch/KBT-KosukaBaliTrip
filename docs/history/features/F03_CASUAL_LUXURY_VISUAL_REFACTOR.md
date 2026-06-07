@@ -36,11 +36,19 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - Section spacing refined and validated.
 - No backend/database/CMS/auth/payment/deployment/i18n implemented.
 
+## Execution Notes (F03.1B)
+- Hero readability hard fix applied.
+- Text panel added behind headline, subtitle, and CTA (`bg-black/45 backdrop-blur-md rounded-3xl`).
+- CTA contrast improved (Solid white background and high-contrast border variant).
+- Hero overlay adjusted to provide balanced global background dimming.
+- No backend/database/CMS/auth/payment/deployment/i18n implemented.
+
 ## Sub-Batch Roadmap
 - F03.0 — Completed
 - F03.0A — Completed
 - F03.1 — Completed
 - F03.1A — Completed
+- F03.1B — Completed
 - F03.2 — Planned / Broader visual polish after user review
 
 ## HOLD / Blocked Notes
@@ -49,7 +57,7 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - Booking engine & real-time vehicle availability.
 
 ## Next Step
-User review of polished image-enhanced landing page.
+User review of Hero readability on localhost screenshot.
 
 ## Validation Checklist
 - [x] Refactor *Hero Section* dengan tata ruang visual penuh dan *overlay*.
