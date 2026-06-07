@@ -27,6 +27,13 @@ In Progress / F02.3 completed
 - No backend/database/CMS/auth/payment/deployment/i18n implemented
 - No real booking/payment/availability logic implemented
 
+## Execution Notes (F02.4)
+- Static/mock landing data structured
+- Landing data types created
+- Section components adjusted to typed data fields
+- No backend/database/CMS/auth/payment/deployment/i18n implemented
+- No real booking/payment/availability logic implemented
+
 ## Story
 Website KBT membutuhkan arah visual dan teknis yang jelas (Warm Tropical Premium) dengan pendekatan component-based UI menggunakan Next.js, TypeScript, dan Tailwind CSS. Ini penting agar saat coding dimulai, struktur token desain, styling, dan hierarki komponen sudah terpusat dan mudah dikelola.
 
@@ -47,8 +54,8 @@ Website KBT membutuhkan arah visual dan teknis yang jelas (Warm Tropical Premium
 - F02.2A — Completed
 - F02.3 — Completed
 - F02.3A — Completed
-- F02.4 — Next
-- F02-CP — Planned
+- F02.4 — Completed
+- F02-CP — Next
 
 ## HOLD / Blocked Notes
 - Full multilingual/i18n (do not install i18n packages, do not create /en or /id routes).

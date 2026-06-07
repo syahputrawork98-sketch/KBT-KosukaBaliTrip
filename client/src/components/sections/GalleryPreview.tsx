@@ -16,7 +16,7 @@ export function GalleryPreview() {
         />
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {galleryItems.map((item, i) => (
-            <div key={i} className={`aspect-square ${item.color} rounded-lg flex items-center justify-center p-4 text-center shadow-sm`}>
+            <div key={i} className={`aspect-square ${item.colorClass} rounded-lg flex items-center justify-center p-4 text-center shadow-sm`}>
                <span className="text-[var(--color-muted-foreground)] font-medium">{item.title}</span>
             </div>
           ))}

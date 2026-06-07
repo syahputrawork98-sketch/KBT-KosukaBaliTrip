@@ -22,10 +22,10 @@ export function VehiclePreview() {
               </div>
               <CardHeader>
                 <CardTitle>{v.name}</CardTitle>
-                <CardDescription>Capacity: {v.capacity}</CardDescription>
+                <CardDescription>Capacity: {v.capacity} • {v.useCase}</CardDescription>
               </CardHeader>
               <CardFooter>
-                <p className="text-sm font-medium text-[var(--color-primary)]">{v.status}</p>
+                <p className="text-sm font-medium text-[var(--color-primary)]">{v.statusLabel}</p>
               </CardFooter>
             </Card>
           ))}

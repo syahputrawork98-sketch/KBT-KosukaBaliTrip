@@ -2,7 +2,7 @@ import * as React from "react"
 import { Container } from "@/components/layout/Container"
 import { Section } from "@/components/layout/Section"
 import { SectionHeading } from "@/components/layout/SectionHeading"
-import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/Card"
+import { Card, CardHeader, CardTitle, CardContent, CardFooter, CardDescription } from "@/components/ui/Card"
 import { Badge } from "@/components/ui/Badge"
 import { Button } from "@/components/ui/Button"
 import { tourPackages } from "@/data/landing"
@@ -21,6 +21,7 @@ export function TourPackagesPreview() {
             <Card key={i} className="flex flex-col">
               <CardHeader>
                 <CardTitle>{tour.name}</CardTitle>
+                <CardDescription>{tour.durationLabel}</CardDescription>
               </CardHeader>
               <CardContent className="flex-1">
                 <ul className="space-y-2 mb-4">

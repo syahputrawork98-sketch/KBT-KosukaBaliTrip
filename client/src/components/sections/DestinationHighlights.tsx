@@ -17,7 +17,7 @@ export function DestinationHighlights() {
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {destinations.map((dest, i) => (
-            <Card key={i} className={`overflow-hidden border-none shadow-sm ${dest.color}`}>
+            <Card key={i} className={`overflow-hidden border-none shadow-sm ${dest.colorClass}`}>
               <div className="h-40 bg-black/5 flex items-center justify-center">
                 <span className="text-[var(--color-muted-foreground)] text-sm">Image Placeholder</span>
               </div>
