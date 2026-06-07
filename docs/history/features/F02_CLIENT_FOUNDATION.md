@@ -4,7 +4,7 @@
 Menyiapkan dokumen arah teknis client dan design system awal untuk website public KBT (Kosuka Bali Trip) sebelum setup framework client dilakukan.
 
 ## Status
-In Progress / F02.1 completed
+In Progress / F02.2 completed
 
 ## Execution Notes (F02.1)
 - `client/` directory has been initialized.
@@ -37,6 +37,7 @@ Website KBT membutuhkan arah visual dan teknis yang jelas (Warm Tropical Premium
 - F02.1 — Completed
 - F02.1A — Completed
 - F02.2 — Completed
+- F02.2A — Completed
 - F02.3 — Next
 - F02.4 — Planned
 - F02-CP — Planned
@@ -48,14 +49,16 @@ Website KBT membutuhkan arah visual dan teknis yang jelas (Warm Tropical Premium
 - No code/framework setup until F02.1 is approved.
 
 ## Next Step
-Menyiapkan eksekusi F02.2 — Core UI Components.
+Menyiapkan eksekusi F02.3 — Landing Page Visual Shell.
 
 ## Validation Checklist
 - [x] F02.0 direction documented
 - [x] F02.1 client framework initialized
-- [x] Next.js + TypeScript + Tailwind setup completed
+- [x] F02.1A documentation synced
+- [x] F02.2 core UI components created
 - [x] npm run lint succeeded
 - [x] npm run build succeeded
+- [x] No full landing page yet
 - [x] No backend/database/CMS/auth/payment/deployment/i18n implemented
 
 ## Notes
