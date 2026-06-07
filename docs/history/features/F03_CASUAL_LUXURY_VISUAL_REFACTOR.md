@@ -15,9 +15,21 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - `TourPackagesPreview` telah disesuaikan agar bergaya kartu sudut membulat (*rounded-3xl*) dengan bayangan transparan tipis (*soft floating shadow*).
 - Komponen *Button* telah disegarkan menggunakan gaya kapsul (*rounded-full*).
 
+## Execution Notes (F03.0)
+- `globals.css` updated with Casual Luxury palette.
+- `HeroSection` refactored (full-height, gradient overlay, floating info bar).
+- `TourPackagesPreview` refactored (rounded cards, soft shadow, image placeholder).
+- Button/Card base UI refined.
+
+## Execution Notes (F03.0A)
+- POC polish applied.
+- Package card no-price copy refined (from "Starting from" to "Trip style").
+- Hero background structure prepared for future real image (wrapper added, scenic gradient improved).
+- Mobile overlap spacing reviewed (bottom margin added to hero).
 ## Sub-Batch Roadmap
-- F03.0 — Completed (Proof of concept on Hero & Tour Cards)
-- F03.1 — Planned / Pending Review
+- F03.0 — Completed
+- F03.0A — Completed
+- F03.1 — Planned / Pending user approval
 
 ## HOLD / Blocked Notes
 - Full multilingual/i18n (do not install i18n packages).
@@ -25,7 +37,7 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - Booking engine & real-time vehicle availability.
 
 ## Next Step
-Menunggu ulasan (*user review*) atas eksperimen bukti konsep (*proof of concept*) dari Hero Section dan Tour Package Card.
+User review of Casual Luxury POC before applying across all sections.
 
 ## Validation Checklist
 - [x] Refactor *Hero Section* dengan tata ruang visual penuh dan *overlay*.

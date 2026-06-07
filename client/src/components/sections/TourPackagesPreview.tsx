@@ -47,7 +47,7 @@ export function TourPackagesPreview() {
               
               <CardFooter className="flex flex-row items-center justify-between gap-4 border-t border-[var(--color-border)]/50 pt-6 pb-6 mt-auto">
                 <div className="flex flex-col">
-                  <span className="text-xs text-[var(--color-muted-foreground)] uppercase tracking-wider font-semibold mb-0.5">Starting from</span>
+                  <span className="text-xs text-[var(--color-muted-foreground)] uppercase tracking-wider font-semibold mb-0.5">Trip style</span>
                   <span className="font-medium text-[var(--color-foreground)]">{tour.priceLabel}</span>
                 </div>
                 <Button variant="primary" size="sm" className="rounded-full px-6">Inquire</Button>
