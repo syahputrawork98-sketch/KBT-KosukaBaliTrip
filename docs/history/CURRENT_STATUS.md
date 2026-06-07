@@ -8,8 +8,8 @@
 - **Default Executor Model:** Gemini 3.1 Pro High
 - **Main Language:** TypeScript
 - **Project Type:** Greenfield web project
-- **Active Batch:** F01.1 — KBT Workflow Cleanup
-- **Frontend:** Not started
+- **Active Batch:** F02.0 — Client Technical Direction & Design System Plan
+- **Frontend:** Planned / Client direction accepted
 - **Backend:** Not started
 - **Database:** Not started
 - **Deployment:** Not started
@@ -20,10 +20,10 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | F00 | WPWK Workflow Foundation | docs/project | Completed | Fondasi workflow template WPWK (history) | Selesai, template diadaptasi ke KBT | features/F00_PROJECT_WORKFLOW_FOUNDATION.md |
 | F01 | KBT Project Foundation | docs | In Progress | Menyiapkan repo menjadi KBT (bukan lagi template) | Review F01 foundation, lalu lanjut technical planning | features/F01_KBT_PROJECT_FOUNDATION.md |
+| F02 | Client Foundation & Design System | docs/frontend | Planned / Direction Accepted | Arah teknis frontend disiapkan | Lanjut ke F02.1 setelah user approve | features/F02_CLIENT_FOUNDATION.md |
 
 ## Next Recommended Step
-- Review F01.1 KBT Workflow Cleanup.
-- Lanjut ke F02 (Technical planning atau frontend foundation sesuai keputusan user).
+- F02.1 — Client Framework Setup (only after user approval).
 
 ## Safety Rules
 - Jangan menyimpan credential/secret di repository.
