@@ -51,6 +51,12 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - No broad section refactor.
 - No backend/database/CMS/auth/payment/deployment/i18n implemented.
 
+## Execution Notes (F03.1D)
+- Fixed broken Waterfall gallery image URL.
+- Fixed broken About section image URL.
+- No layout/design refactor.
+- No backend/database/CMS/auth/payment/deployment/i18n implemented.
+
 ## Sub-Batch Roadmap
 - F03.0 — Completed
 - F03.0A — Completed
@@ -58,6 +64,7 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - F03.1A — Completed
 - F03.1B — Rejected / Reworked
 - F03.1C — Completed
+- F03.1D — Completed
 - F03.2 — Planned after user review
 
 ## HOLD / Blocked Notes
@@ -66,7 +73,7 @@ Berdasarkan ulasan atas hasil fondasi visual F02, skema warna yang digunakan seb
 - Booking engine & real-time vehicle availability.
 
 ## Next Step
-User review of Hero minimal readability fix.
+User review of landing page after broken image fix.
 
 ## Validation Checklist
 - [x] Refactor *Hero Section* dengan tata ruang visual penuh dan *overlay*.

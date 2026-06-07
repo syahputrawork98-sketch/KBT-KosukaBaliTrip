@@ -1,13 +1,13 @@
 // Static mock data for the public landing page.
 // This is intentionally separated from UI components so it can later be replaced by CMS/database data.
 
-import { 
-  LandingPageData, 
-  TrustValue, 
-  DestinationItem, 
-  TourPackageItem, 
-  VehicleItem, 
-  GalleryItem 
+import {
+  LandingPageData,
+  TrustValue,
+  DestinationItem,
+  TourPackageItem,
+  VehicleItem,
+  GalleryItem
 } from "@/types/landing";
 
 export const trustValues: TrustValue[] = [
@@ -43,7 +43,7 @@ export const galleryItems: GalleryItem[] = [
   { title: "Bali Temple", colorClass: "bg-slate-200", imageUrl: "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=800&q=80", imageAlt: "Balinese Temple Architecture" },
   { title: "Rice Terrace", colorClass: "bg-slate-300", imageUrl: "https://images.unsplash.com/photo-1554481923-a6918bd997bc?auto=format&fit=crop&w=800&q=80", imageAlt: "Lush Green Rice Terraces" },
   { title: "Sunset Beach", colorClass: "bg-slate-200", imageUrl: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=80", imageAlt: "Sunset at Bali Beach" },
-  { title: "Waterfall", colorClass: "bg-slate-300", imageUrl: "https://images.unsplash.com/photo-1552084117-56a98a9876ce?auto=format&fit=crop&w=800&q=80", imageAlt: "Hidden Waterfall in Bali Jungle" },
+  { title: "Waterfall", colorClass: "bg-slate-300", imageUrl: "https://images.unsplash.com/photo-1554931670-4ebfabf6e7a9?auto=format&fit=crop&w=800&q=80", imageAlt: "Waterfall surrounded by tropical jungle in Bali" },
   { title: "Culture", colorClass: "bg-slate-200", imageUrl: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80", imageAlt: "Balinese Offerings and Culture" },
   { title: "Ocean Cliff", colorClass: "bg-slate-300", imageUrl: "https://images.unsplash.com/photo-1537956965359-7573183d1f57?auto=format&fit=crop&w=800&q=80", imageAlt: "Dramatic Ocean Cliffs at Uluwatu" }
 ];
