@@ -8,7 +8,7 @@ Repository ini sebelumnya menggunakan template WPWK (Web Project Workflow Kit) s
 ## Project Info
 - **Project Name:** KBT — Kosuka Bali Trip
 - **Description:** Website travel & tour Bali
-- **Status:** Preparation / Foundation
+- **Status:** Client Foundation (Static shell ready)
 - **Project Type:** Greenfield TypeScript Web Project
 
 ## Struktur Repository
@@ -20,8 +20,8 @@ Repository ini menggunakan struktur dokumentasi terpusat di dalam folder `docs/`
 - `docs/backend/` - Dokumentasi khusus area backend/API (jika nanti dibutuhkan).
 - `docs/database/` - Dokumentasi khusus area database (jika nanti dibutuhkan).
 - `docs/deployment/` - Dokumentasi khusus area deployment (jika nanti dibutuhkan).
-- `client/` - Folder untuk aplikasi frontend website (belum ada implementasi teknis).
-- `server/` - Folder untuk aplikasi backend, API, atau server logic (belum ada implementasi teknis).
+- `client/` - Folder untuk aplikasi frontend website (Diinisialisasi dengan Next.js + TypeScript + Tailwind. Saat ini berupa static landing page shell).
+- `server/` - Folder untuk aplikasi backend, API, atau server logic (Not started / HOLD).
 
 ## Prinsip Utama
 
@@ -34,9 +34,8 @@ Repository ini menggunakan struktur dokumentasi terpusat di dalam folder `docs/`
 3. **Batch System**: Pengerjaan dibagi menjadi Feature Batch (FXX) dan Execution Batch.
 
 ## Next Step
-- Menyelesaikan Batch F01 (KBT Project Foundation) untuk memastikan semua dokumentasi dan arah project clear.
-- Setelah foundation disetujui, lanjut ke technical planning dan inisialisasi framework.
+- Menunggu keputusan untuk memulai Batch F03 (Client Content Refinement) atau HOLD.
 
 ## Status Awal Project
 
-Project KBT saat ini sedang dalam tahap inisialisasi project foundation (Batch F01). Detail status dapat dilihat di `docs/history/CURRENT_STATUS.md`.
+Project KBT saat ini telah menyelesaikan Client Foundation (Batch F02). Detail status dapat dilihat di `docs/history/CURRENT_STATUS.md`.
