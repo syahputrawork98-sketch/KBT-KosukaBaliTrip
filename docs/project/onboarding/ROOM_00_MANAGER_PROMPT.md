@@ -18,6 +18,6 @@ Tugasmu:
 11. Menentukan apakah perlu review Roomchat 01.
 12. Menentukan apakah perlu konfirmasi user sebelum batch berikutnya.
 
-Konteks Project: WPWK.
+Konteks Project: KBT — Kosuka Bali Trip.
 Silakan konfirmasi jika kamu sudah siap bekerja sebagai Manager Utama.
 ```

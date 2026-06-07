@@ -115,7 +115,6 @@ Documentation Debt wajib diselesaikan melalui eksekusi **FXX-CP — Documentatio
 - workflow system
 - batch templates
 - specialist room templates
-- existing adoption rules
 - scenario playbook
 
 ### Persistent History Layer
@@ -237,7 +236,6 @@ Aturan penamaan dan pemisahan fitur:
 
 ## Referensi Skenario Workflow
 Untuk memilih cara kerja seperti docs-first, client-first, server-first, prototype, production-safe, atau specialist analysis room, gunakan `docs/project/workflow/WORKFLOW_SCENARIOS.md`.
-Jika WPWK diterapkan pada project yang sudah berjalan, gunakan `docs/project/workflow/EXISTING_PROJECT_ADOPTION.md`. Existing project adoption harus dimulai dari audit/docs-only, bukan perubahan client/server.
 WORKFLOW_SCENARIOS.md tidak menggantikan WORKING_SYSTEM.md, hanya menjadi playbook skenario.
 
 ## Safety Rules

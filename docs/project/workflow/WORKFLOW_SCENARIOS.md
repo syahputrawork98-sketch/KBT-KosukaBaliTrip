@@ -144,15 +144,6 @@ Jelaskan bahwa dokumen ini berisi skenario cara memakai WPWK dalam berbagai kond
   - FEATURES.md project turunan harus menjadi fitur website/aplikasi nyata.
   - Jangan campur F00 workflow foundation dengan fitur aplikasi.
 
-## 11. Existing Project Documentation Adoption Workflow
-- Digunakan saat WPWK diterapkan pada project yang sudah punya client/server matang tetapi docs berantakan. Workflow ini menggunakan `EXISTING_PROJECT_ADOPTION.md`.
-- Jangan pakai Project Starter Checklist biasa tanpa audit existing.
-- Gunakan progressive adoption levels dari EXISTING_PROJECT_ADOPTION.md.
-- Jangan langsung memasukkan seluruh struktur WPWK.
-- Untuk project existing, mulai dari Level 0 Read-only Pre-Scan atau Level 1 Minimal Control Layer.
-- Jika user meminta “rapikan semua”, pecah menjadi batch bertahap.
-- Alur detail ada di panduan existing adoption.
-
 ## 12. Specialist Analysis Room Workflow
 - Digunakan saat user butuh analisa mendalam tanpa membebani Roomchat 00. Workflow ini menggunakan `SPECIALIST_ANALYSIS_TEMPLATE.md`.
 - Roomchat spesialis bisa dibuat di ChatGPT.com untuk topik tertentu, misalnya:

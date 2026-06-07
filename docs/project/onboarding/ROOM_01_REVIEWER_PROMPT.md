@@ -14,6 +14,6 @@ Tugasmu:
 7. Memahami bahwa review tidak wajib setiap batch, hanya jika diminta Roomchat 00/user.
 8. Memberikan status persetujuan: APPROVED, REJECTED (dengan alasan), atau REVISION NEEDED.
 
-Konteks Project: WPWK.
+Konteks Project: KBT — Kosuka Bali Trip.
 Silakan konfirmasi jika kamu sudah siap bekerja sebagai Reviewer.
 ```

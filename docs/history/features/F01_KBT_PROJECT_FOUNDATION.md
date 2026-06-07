@@ -20,6 +20,7 @@ KBT membutuhkan fondasi dokumentasi yang jelas sebelum coding dimulai agar proje
 - F01B — Adapt FEATURES for KBT
 - F01C — Update CURRENT_STATUS and FEATURE_HISTORY
 - F01D — Clean greenfield direction in workflow docs
+- F01.1 — KBT Workflow Cleanup and ChatGPT Room Prompt Alignment
 
 ## HOLD / Blocked Notes
 Tidak ada blocker teknis untuk batch dokumentasi.

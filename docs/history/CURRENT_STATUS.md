@@ -8,7 +8,7 @@
 - **Default Executor Model:** Gemini 3.1 Pro High
 - **Main Language:** TypeScript
 - **Project Type:** Greenfield web project
-- **Active Batch:** F01 — KBT Project Foundation
+- **Active Batch:** F01.1 — KBT Workflow Cleanup
 - **Frontend:** Not started
 - **Backend:** Not started
 - **Database:** Not started
@@ -22,8 +22,7 @@
 | F01 | KBT Project Foundation | docs | In Progress | Menyiapkan repo menjadi KBT (bukan lagi template) | Review F01 foundation, lalu lanjut technical planning | features/F01_KBT_PROJECT_FOUNDATION.md |
 
 ## Next Recommended Step
-- Selesaikan dokumen adaptasi untuk F01.
-- Lakukan git commit dan push untuk menyimpan project foundation.
+- Review F01.1 KBT Workflow Cleanup.
 - Lanjut ke F02 (Technical planning atau frontend foundation sesuai keputusan user).
 
 ## Safety Rules
