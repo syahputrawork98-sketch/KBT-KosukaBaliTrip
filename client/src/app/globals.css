@@ -1,17 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FAFAFA;
-  --foreground: #1F2937;
-  --color-primary: #5F7F75; /* muted sage/ocean slate */
-  --color-sand: #F8F9FA; /* soft background */
-  --color-coral: #D9A66A; /* warm sand / soft terracotta */
-  --color-slate: #333333;
-  --color-muted: #F3F4F6;
-  --color-muted-foreground: #6B7280;
-  --color-border: rgba(31, 41, 55, 0.08);
+  --background: #FFFDF8;
+  --foreground: #082F49;
+  --color-primary: #082F49; /* Deep Ocean Navy */
+  --color-secondary: #0E7490; /* Ocean Teal */
+  --color-accent: #D6A84F; /* Warm Bali Gold */
+  --color-sand: #F7EFE2; /* Soft Sand */
+  --color-coral: #D6A84F; /* Warm Gold fallback */
+  --color-slate: #082F49; /* Deep Navy fallback */
+  --color-muted: #F3EBDD;
+  --color-muted-foreground: #64748B;
+  --color-border: rgba(8, 47, 73, 0.10);
   --color-card: #FFFFFF;
-  --color-card-foreground: #1F2937;
+  --color-card-foreground: #0F172A;
 }
 
 @theme inline {
@@ -20,6 +22,8 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
   --color-sand: var(--color-sand);
   --color-coral: var(--color-coral);
   --color-slate: var(--color-slate);
@@ -32,13 +36,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #111827;
-    --foreground: #FAFAFA;
-    --color-muted: #374151;
-    --color-muted-foreground: #9CA3AF;
-    --color-border: rgba(255, 255, 255, 0.08);
-    --color-card: #1F2937;
-    --color-card-foreground: #F9FAFB;
+    --background: #041B2D;
+    --foreground: #FFFDF8;
+    --color-muted: #0B2A3D;
+    --color-muted-foreground: #A7B6C2;
+    --color-border: rgba(255, 253, 248, 0.10);
+    --color-card: #082F49;
+    --color-card-foreground: #FFFDF8;
   }
 }
 

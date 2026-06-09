@@ -20,8 +20,8 @@ export function HeroSection() {
       </div>
       
       {/* Light Overlays for Text Readability - Minimal Approach */}
-      <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/50 to-transparent -z-10" />
-      <div className="absolute inset-0 bg-white/20 -z-10" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-sand)]/95 via-[var(--color-sand)]/50 to-transparent -z-10" />
+      <div className="absolute inset-0 bg-[var(--color-sand)]/10 -z-10" />
       
       <Container className="relative z-10 flex-1 flex flex-col justify-center pt-24 pb-32">
         <div className="max-w-3xl space-y-6">
@@ -32,8 +32,8 @@ export function HeroSection() {
             Private tours, flexible routes, and easy local support for travelers who want Bali to feel effortless.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button variant="primary" size="lg" className="bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary)]/90 shadow-lg font-medium">Start Planning</Button>
-            <Button variant="outline" size="lg" className="border border-[var(--color-primary)] text-[var(--color-primary)] bg-white/70 hover:bg-white font-medium">Explore Tours</Button>
+            <Button variant="primary" size="lg" className="shadow-lg font-medium">Start Planning</Button>
+            <Button variant="outline" size="lg" className="shadow-sm font-medium">Explore Tours</Button>
           </div>
         </div>
       </Container>

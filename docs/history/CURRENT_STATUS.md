@@ -8,8 +8,8 @@
 - **Default Executor Model:** Gemini 3.1 Pro High
 - **Main Language:** TypeScript
 - **Project Type:** Greenfield web project
-- **Active Batch:** F03-CP — Casual Luxury Visual Refactor Documentation Checkpoint
-- **Frontend:** Casual Luxury landing page preview accepted / Ready for next feature decision
+- **Active Batch:** F04 — Logo-Based Brand Theme Alignment
+- **Frontend:** Logo-based brand color alignment completed / Ready for validation
 - **Backend:** Not started / HOLD
 - **Database:** Not started / HOLD
 - **Deployment:** Not started / HOLD
@@ -22,9 +22,10 @@
 | F01 | KBT Project Foundation | docs | In Progress | Menyiapkan repo menjadi KBT (bukan lagi template) | Review F01 foundation, lalu lanjut technical planning | features/F01_KBT_PROJECT_FOUNDATION.md |
 | F02 | Client Foundation & Design System | docs/frontend | Completed / Checkpoint ready | Client foundation completed; backend/database/CMS/auth/payment/i18n still HOLD | Await user decision for F03 | features/F02_CLIENT_FOUNDATION.md |
 | F03 | Casual Luxury Visual Refactor | frontend/design | Completed / Checkpoint ready | Casual Luxury landing page preview accepted; backend/database/CMS/auth/payment/i18n still HOLD | Await user decision for F04 | features/F03_CASUAL_LUXURY_VISUAL_REFACTOR.md |
+| F04 | Logo-Based Brand Theme Alignment | frontend/design | Completed | Brand color alignment with new logo completed | Validate local preview on dev server | features/F04_LOGO_BASED_BRAND_THEME_ALIGNMENT.md |
 
 ## Next Recommended Step
-- User decision: continue to F04 — Mobile Responsiveness & Cross-Device Polish, F04 — Content/Copywriting Refinement, or HOLD.
+- Validate logo-based theme preview and layout responsiveness on localhost.
 
 ## Safety Rules
 - Jangan menyimpan credential/secret di repository.

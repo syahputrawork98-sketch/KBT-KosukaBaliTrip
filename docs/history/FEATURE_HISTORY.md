@@ -8,3 +8,4 @@ Daftar riwayat fitur yang pernah dan sedang dikerjakan dalam project ini. (Hanya
 | F01 | KBT Project Foundation | In Progress | features/F01_KBT_PROJECT_FOUNDATION.md |
 | F02 | Client Foundation & Design System | Completed / Checkpoint ready | features/F02_CLIENT_FOUNDATION.md |
 | F03 | Casual Luxury Visual Refactor | Completed / Checkpoint ready | features/F03_CASUAL_LUXURY_VISUAL_REFACTOR.md |
+| F04 | Logo-Based Brand Theme Alignment | Completed | features/F04_LOGO_BASED_BRAND_THEME_ALIGNMENT.md |
