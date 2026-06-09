@@ -3,7 +3,6 @@ import { PageHeader } from "@/components/layout/PageHeader"
 import { Container } from "@/components/layout/Container"
 import { Section } from "@/components/layout/Section"
 import { BrandIcon } from "@/components/ui/BrandIcon"
-import { WhatsAppButton } from "@/components/ui/WhatsAppButton"
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card"
 
 export default function ContactPage() {
@@ -21,7 +20,7 @@ export default function ContactPage() {
     {
       title: "Vehicle Rental Only",
       icon: "car",
-      desc: "Private transport support with local driver-guide (no guide/planning)."
+      desc: "Private transport support for your planned route, without guide service or itinerary planning."
     },
     {
       title: "Not Sure Yet / Custom",
@@ -100,7 +99,9 @@ export default function ContactPage() {
               </p>
               
               <div className="flex justify-center">
-                <WhatsAppButton href="#" />
+                <span className="inline-flex items-center justify-center rounded-full font-medium h-11 px-8 text-base bg-slate-100 text-slate-500 border border-slate-200">
+                  WhatsApp contact will be added soon
+                </span>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import * as React from "react"
+import Link from "next/link"
 import { Container } from "@/components/layout/Container"
 import { Section } from "@/components/layout/Section"
-import { WhatsAppButton } from "@/components/ui/WhatsAppButton"
 
 export function ContactCTA() {
   return (
@@ -24,7 +24,12 @@ export function ContactCTA() {
             </li>
           </ul>
         </div>
-        <WhatsAppButton href="#" />
+        <Link 
+          href="/contact" 
+          className="inline-flex items-center justify-center rounded-full font-medium transition-all active:scale-[0.98] h-11 py-2 px-8 text-base bg-[var(--color-accent)] text-[var(--color-primary)] hover:bg-[var(--color-accent)]/90 shadow-md font-semibold"
+        >
+          Contact Us to Plan
+        </Link>
       </Container>
     </Section>
   )

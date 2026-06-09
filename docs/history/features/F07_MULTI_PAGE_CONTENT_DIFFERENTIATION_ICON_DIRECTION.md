@@ -64,6 +64,7 @@ Setelah membagi website menjadi multi-page, isi dari halaman sub-rute seperti De
 - [gallery/page.tsx](file:///i:/Workspace/Workspace-Syahputrawork/KBT-KosukaBaliTrip/client/src/app/gallery/page.tsx) [MODIFY]
 - [about/page.tsx](file:///i:/Workspace/Workspace-Syahputrawork/KBT-KosukaBaliTrip/client/src/app/about/page.tsx) [MODIFY]
 - [contact/page.tsx](file:///i:/Workspace/Workspace-Syahputrawork/KBT-KosukaBaliTrip/client/src/app/contact/page.tsx) [MODIFY]
+- [ContactCTA.tsx](file:///i:/Workspace/Workspace-Syahputrawork/KBT-KosukaBaliTrip/client/src/components/sections/ContactCTA.tsx) [MODIFY]
 
 ## Hold / Blocked Items
 - Integrasi pembayaran, pemesanan otomatis online, form submission dengan backend.
