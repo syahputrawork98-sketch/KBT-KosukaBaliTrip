@@ -59,9 +59,9 @@ export function Footer() {
         </div>
         <div className="text-center text-sm text-white/60 flex flex-col md:flex-row justify-between items-center gap-4">
           <p>&copy; {new Date().getFullYear()} Kosuka Bali. All rights reserved.</p>
-          <div className="flex gap-4">
-            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+          <div className="flex gap-4 text-xs text-white/40">
+            <span>Privacy Policy (Coming Soon)</span>
+            <span>Terms of Service (Coming Soon)</span>
           </div>
         </div>
       </Container>
