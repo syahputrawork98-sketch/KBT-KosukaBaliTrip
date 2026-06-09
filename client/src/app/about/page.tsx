@@ -39,7 +39,7 @@ export default function AboutPage() {
   const advantages = [
     {
       title: "Dedicated Private Support",
-      desc: "You get a dedicated private vehicle and local driver-guide for your group only, ensuring privacy and ease."
+      desc: "You get a dedicated private vehicle and local driver for your group only, ensuring privacy and ease."
     },
     {
       title: "Direct WhatsApp Contact",

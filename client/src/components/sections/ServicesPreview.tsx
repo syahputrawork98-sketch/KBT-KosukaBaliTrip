@@ -21,7 +21,7 @@ export function ServicesPreview() {
     {
       title: "Vehicle Rental Only",
       icon: "car",
-      description: "Comfortable and private transport support with experienced driver-guides for travelers with their own plan."
+      description: "Comfortable and private transport support with experienced drivers for travelers with their own plan."
     }
   ]
 

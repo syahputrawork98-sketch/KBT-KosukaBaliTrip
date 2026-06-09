@@ -13,4 +13,5 @@ Daftar riwayat fitur yang pernah dan sedang dikerjakan dalam project ini. (Hanya
 | F06 | Services Page Content Structure | Completed | features/F06_SERVICES_PAGE_CONTENT_STRUCTURE.md |
 | F07 | Multi-Page Content Differentiation & Icon Direction | Completed | features/F07_MULTI_PAGE_CONTENT_DIFFERENTIATION_ICON_DIRECTION.md |
 | F08 | Contact Channel & Inquiry Flow | Completed | features/F08_CONTACT_CHANNEL_INQUIRY_FLOW.md |
+| F09 | Pre-ACC Validation & Notes Cleanup | Completed | features/F09_PRE_ACC_VALIDATION_NOTES_CLEANUP.md |
 

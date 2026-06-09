@@ -16,7 +16,7 @@ Agar memudahkan komunikasi bagi calon tamu internasional, KBT memerlukan jalur k
   - Grid dua kolom "Contact Channels": WhatsApp (dengan tombol chat & label placeholder dev) dan Email (dengan tombol kirim email pre-filled).
   - Panduan checklist "Details to Prepare" yang rapi beserta paragraf imbauan informatif.
 - **Contact CTA Block ([ContactCTA.tsx](file:///i:/Workspace/Workspace-Syahputrawork/KBT-KosukaBaliTrip/client/src/components/sections/ContactCTA.tsx))**: Menyediakan 3 tombol aksi: Chat di WhatsApp, Kirim Email, dan Detail Petunjuk Inquiry.
-- **Footer ([Footer.tsx](file:///i:/Workspace/Workspace-Syahputrawork/KBT-KosukaBaliTrip/client/src/components/sections/Footer.tsx))**: Menampilkan tautan aktif email resmi dan WhatsApp dummy, serta mengganti link placeholder Privacy & Terms menjadi rute internal Next.js `Link`.
+- **Footer ([Footer.tsx](file:///i:/Workspace/Workspace-Syahputrawork/KBT-KosukaBaliTrip/client/src/components/sections/Footer.tsx))**: Menampilkan tautan aktif email resmi dan WhatsApp dummy, serta menyajikan link Privacy Policy & Terms of Service sebagai teks statis "(Coming Soon)" yang tidak dapat diklik (untuk mencegah error 404).
 
 ## Files Touched
 - [contact.ts](file:///i:/Workspace/Workspace-Syahputrawork/KBT-KosukaBaliTrip/client/src/lib/contact.ts) [NEW]
