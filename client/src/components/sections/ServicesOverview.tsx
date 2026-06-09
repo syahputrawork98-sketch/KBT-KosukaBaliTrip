@@ -3,11 +3,13 @@ import Link from "next/link"
 import { Container } from "@/components/layout/Container"
 import { Section } from "@/components/layout/Section"
 import { Card, CardHeader, CardTitle, CardContent, CardFooter, CardDescription } from "@/components/ui/Card"
+import { BrandIcon } from "@/components/ui/BrandIcon"
 
 export function ServicesOverview() {
   const services = [
     {
       title: "Complete Bali Trip Package",
+      icon: "route",
       description: "From airport pickup to daily trip arrangements, this service helps you enjoy Bali with a clearer plan, local support, and a smoother travel flow.",
       bestFor: "First-time visitors, couples, families, honeymoon trips, and small groups who want a more organized Bali experience.",
       includes: [
@@ -28,6 +30,7 @@ export function ServicesOverview() {
     },
     {
       title: "Private Local Guide",
+      icon: "compass",
       description: "Explore Bali with a friendly local guide who can help you understand the places you visit, communicate more easily, and enjoy a more personal travel experience.",
       bestFor: "Travelers who already have destinations in mind but want local guidance, cultural context, and smoother communication during the day.",
       includes: [
@@ -49,8 +52,9 @@ export function ServicesOverview() {
     },
     {
       title: "Vehicle Rental Only",
+      icon: "car",
       description: "For travelers who already have their own plan, our vehicle rental option gives you simple and flexible transportation support during your stay in Bali.",
-      bestFor: "Travelers who already know where they want to go and only need transport support without a guide or trip planning.",
+      bestFor: "Travelers who know where they want to go and only need transport support without a guide or trip planning.",
       includes: [
         "Vehicle rental based on availability",
         "Agreed pickup and drop-off area",
@@ -76,6 +80,9 @@ export function ServicesOverview() {
           {services.map((service, i) => (
             <Card key={i} className="flex flex-col h-full bg-[var(--color-card)] hover:shadow-lg transition-all duration-300 border border-[var(--color-border)]">
               <CardHeader className="pb-4">
+                <div className="text-[var(--color-secondary)] mb-4 inline-flex items-center justify-center p-3 bg-[var(--color-secondary)]/10 rounded-2xl w-fit">
+                  <BrandIcon name={service.icon} size={32} />
+                </div>
                 <CardTitle className="text-2xl font-serif text-[var(--color-primary)] font-semibold">{service.title}</CardTitle>
                 <CardDescription className="text-base text-[var(--color-slate)]/90 mt-2 leading-relaxed">{service.description}</CardDescription>
               </CardHeader>
