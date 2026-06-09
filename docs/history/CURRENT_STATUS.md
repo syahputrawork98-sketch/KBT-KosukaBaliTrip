@@ -8,8 +8,8 @@
 - **Default Executor Model:** Gemini 3.1 Pro High
 - **Main Language:** TypeScript
 - **Project Type:** Greenfield web project
-- **Active Batch:** F05 — Multi-Page Navigation Structure
-- **Frontend:** Multi-page routing completed / Ready for validation
+- **Active Batch:** F06 — Services Page Content Structure
+- **Frontend:** Services page layout and content structure completed / Ready for validation
 - **Backend:** Not started / HOLD
 - **Database:** Not started / HOLD
 - **Deployment:** Not started / HOLD
@@ -24,9 +24,10 @@
 | F03 | Casual Luxury Visual Refactor | frontend/design | Completed / Checkpoint ready | Casual Luxury landing page preview accepted; backend/database/CMS/auth/payment/i18n still HOLD | Await user decision for F04 | features/F03_CASUAL_LUXURY_VISUAL_REFACTOR.md |
 | F04 | Logo-Based Brand Theme Alignment | frontend/design | Completed | Brand color alignment with new logo completed | Validate local preview on dev server | features/F04_LOGO_BASED_BRAND_THEME_ALIGNMENT.md |
 | F05 | Multi-Page Navigation Structure | frontend/design | Completed | Routing structure and layout modularity completed | Define 3 services content and create service detail pages | features/F05_MULTI_PAGE_NAVIGATION_STRUCTURE.md |
+| F06 | Services Page Content Structure | frontend/design | Completed | Services list, comparison table, and workflow steps completed | Validate local preview of services on dev server | features/F06_SERVICES_PAGE_CONTENT_STRUCTURE.md |
 
 ## Next Recommended Step
-- Define 3 services content and create service detail pages.
+- Validate local preview of services on dev server.
 
 ## Safety Rules
 - Jangan menyimpan credential/secret di repository.

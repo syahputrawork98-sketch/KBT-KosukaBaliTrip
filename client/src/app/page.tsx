@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/sections/Navbar";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { TrustStrip } from "@/components/sections/TrustStrip";
+import { ServicesPreview } from "@/components/sections/ServicesPreview";
 import { DestinationHighlights } from "@/components/sections/DestinationHighlights";
 import { TourPackagesPreview } from "@/components/sections/TourPackagesPreview";
 import { VehiclePreview } from "@/components/sections/VehiclePreview";
@@ -16,6 +17,7 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <TrustStrip />
+        <ServicesPreview />
         <DestinationHighlights showCTA={true} />
         <TourPackagesPreview showCTA={true} />
         <VehiclePreview showCTA={true} />

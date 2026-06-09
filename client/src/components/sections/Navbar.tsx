@@ -13,7 +13,7 @@ export function Navbar() {
             width={48}
             height={48}
             priority
-            className="h-10 w-auto object-contain"
+            className="h-10 w-auto"
           />
           <span className="text-xl sm:text-2xl font-serif font-medium text-[var(--color-primary)] tracking-tight">Kosuka Bali</span>
         </Link>
