@@ -1,16 +1,26 @@
 import * as React from "react"
 import { cn } from "@/lib/cn"
+import { CONTACT_WHATSAPP_URL } from "@/lib/contact"
 
 export interface WhatsAppButtonProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
   href?: string;
 }
 
 const WhatsAppButton = React.forwardRef<HTMLAnchorElement, WhatsAppButtonProps>(
-  ({ className, href = "#", children = "Chat on WhatsApp", ...props }, ref) => {
+  ({ className, href, children = "Chat on WhatsApp", ...props }, ref) => {
+    const finalHref = href || CONTACT_WHATSAPP_URL
+    const isWhatsAppUrl = finalHref.includes("wa.me")
+
+    const externalProps = isWhatsAppUrl ? {
+      target: "_blank",
+      rel: "noopener noreferrer"
+    } : {}
+
     return (
       <a
         ref={ref}
-        href={href}
+        href={finalHref}
+        {...externalProps}
         className={cn(
           "inline-flex items-center justify-center rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2",
           "h-11 px-8 text-lg shadow-md",

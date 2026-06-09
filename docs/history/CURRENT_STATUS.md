@@ -8,8 +8,8 @@
 - **Default Executor Model:** Gemini 3.1 Pro High
 - **Main Language:** TypeScript
 - **Project Type:** Greenfield web project
-- **Active Batch:** F07 — Multi-Page Content Differentiation & Icon Direction
-- **Frontend:** Multi-page unique content and custom local SVG icons completed / Ready for validation
+- **Active Batch:** F08 — Contact Channel & Inquiry Flow
+- **Frontend:** Centralized contact channels, WhatsApp/Gmail integrations, and pre-filled inquiry blueprints completed / Ready for validation
 - **Backend:** Not started / HOLD
 - **Database:** Not started / HOLD
 - **Deployment:** Not started / HOLD
@@ -26,9 +26,10 @@
 | F05 | Multi-Page Navigation Structure | frontend/design | Completed | Routing structure and layout modularity completed | Define 3 services content and create service detail pages | features/F05_MULTI_PAGE_NAVIGATION_STRUCTURE.md |
 | F06 | Services Page Content Structure | frontend/design | Completed | Services list, comparison table, and workflow steps completed | Validate local preview of services on dev server | features/F06_SERVICES_PAGE_CONTENT_STRUCTURE.md |
 | F07 | Multi-Page Content Differentiation & Icon Direction | frontend/design | Completed | Unique page functions and inline SVG icon integration completed | Validate local preview of differentiated content pages | features/F07_MULTI_PAGE_CONTENT_DIFFERENTIATION_ICON_DIRECTION.md |
+| F08 | Contact Channel & Inquiry Flow | frontend/design | Completed | WhatsApp & Email channels with dynamic pre-filled templates completed | Validate local preview of contact flows on dev server | features/F08_CONTACT_CHANNEL_INQUIRY_FLOW.md |
 
 ## Next Recommended Step
-- Validate local preview of differentiated content pages and verify clean transparent logo on dev server.
+- Validate local preview of contact flows on dev server.
 
 ## Safety Rules
 - Jangan menyimpan credential/secret di repository.

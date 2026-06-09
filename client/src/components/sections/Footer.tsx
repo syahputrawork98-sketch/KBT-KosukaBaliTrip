@@ -1,6 +1,11 @@
 import * as React from "react"
 import Link from "next/link"
 import { Container } from "@/components/layout/Container"
+import { 
+  CONTACT_EMAIL, 
+  CONTACT_WHATSAPP_DISPLAY, 
+  CONTACT_WHATSAPP_URL 
+} from "@/lib/contact"
 
 export function Footer() {
   return (
@@ -28,8 +33,26 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-lg mb-4 text-white">Contact</h4>
             <ul className="space-y-3 text-base text-white/80">
-              <li>WhatsApp: Contact for details</li>
-              <li>Email: Inquiries welcomed</li>
+              <li>
+                WhatsApp:{" "}
+                <a 
+                  href={CONTACT_WHATSAPP_URL} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-[var(--color-accent)] transition-colors"
+                >
+                  {CONTACT_WHATSAPP_DISPLAY}
+                </a>
+              </li>
+              <li>
+                Email:{" "}
+                <a 
+                  href={`mailto:${CONTACT_EMAIL}`} 
+                  className="hover:text-[var(--color-accent)] transition-colors"
+                >
+                  {CONTACT_EMAIL}
+                </a>
+              </li>
               <li>Bali, Indonesia</li>
             </ul>
           </div>
@@ -37,8 +60,8 @@ export function Footer() {
         <div className="text-center text-sm text-white/60 flex flex-col md:flex-row justify-between items-center gap-4">
           <p>&copy; {new Date().getFullYear()} Kosuka Bali. All rights reserved.</p>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
           </div>
         </div>
       </Container>

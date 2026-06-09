@@ -3,7 +3,15 @@ import { PageHeader } from "@/components/layout/PageHeader"
 import { Container } from "@/components/layout/Container"
 import { Section } from "@/components/layout/Section"
 import { BrandIcon } from "@/components/ui/BrandIcon"
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton"
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card"
+import { 
+  CONTACT_EMAIL, 
+  CONTACT_WHATSAPP_DISPLAY, 
+  CONTACT_WHATSAPP_URL, 
+  DEFAULT_INQUIRY_SUBJECT, 
+  DEFAULT_EMAIL_BODY 
+} from "@/lib/contact"
 
 export default function ContactPage() {
   const options = [
@@ -77,7 +85,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-3xl font-serif font-bold text-[var(--color-primary)] mb-6">2. Details to Prepare</h2>
               <p className="text-sm sm:text-base text-[var(--color-muted-foreground)] mb-6 leading-relaxed">
-                To help us provide a quick and accurate quote, please prepare the following details before reaching out:
+                To help us respond faster, please include your travel date, number of travelers, preferred service, pickup area, and destination ideas. Please prepare these details before reaching out:
               </p>
               <ul className="space-y-3">
                 {checklistItems.map((item, i) => (
@@ -89,19 +97,47 @@ export default function ContactPage() {
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-white border border-[var(--color-border)] rounded-3xl shadow-sm text-center">
-              <div className="text-[var(--color-secondary)] mb-4 inline-flex items-center justify-center p-4 bg-[var(--color-secondary)]/10 rounded-full">
-                <BrandIcon name="message" size={36} />
+            <div className="space-y-6">
+              {/* WhatsApp Card */}
+              <div className="p-6 bg-white border border-[var(--color-border)] rounded-2xl shadow-sm text-center">
+                <div className="text-[#25D366] mb-3 inline-flex items-center justify-center p-3 bg-[#25D366]/10 rounded-full">
+                  <BrandIcon name="message" size={28} />
+                </div>
+                <h3 className="text-xl font-serif font-semibold text-[var(--color-primary)] mb-1">Chat on WhatsApp</h3>
+                <p className="text-xs text-[var(--color-muted-foreground)] mb-4 leading-relaxed">
+                  Best for quick questions, availability checks, and sharing your travel plan.
+                </p>
+                <div className="text-sm font-semibold text-[var(--color-primary)] mb-4 bg-slate-50 py-1.5 px-3 rounded-lg inline-block font-mono">
+                  {CONTACT_WHATSAPP_DISPLAY}
+                </div>
+                <div className="flex flex-col items-center gap-2">
+                  <WhatsAppButton href={CONTACT_WHATSAPP_URL} className="w-full text-base h-10 px-6" />
+                  <span className="text-[10px] text-amber-600 bg-amber-50 px-2 py-0.5 rounded border border-amber-200/50">
+                    Placeholder number for development. Replace before production.
+                  </span>
+                </div>
               </div>
-              <h3 className="text-2xl font-serif font-semibold text-[var(--color-primary)] mb-3">3. Direct Consultation</h3>
-              <p className="text-sm text-[var(--color-muted-foreground)] mb-6 leading-relaxed">
-                Connect directly with our local coordinator via WhatsApp. Share your details, ask questions, and design your travel plan with us.
-              </p>
-              
-              <div className="flex justify-center">
-                <span className="inline-flex items-center justify-center rounded-full font-medium h-11 px-8 text-base bg-slate-100 text-slate-500 border border-slate-200">
-                  WhatsApp contact will be added soon
-                </span>
+
+              {/* Email Card */}
+              <div className="p-6 bg-white border border-[var(--color-border)] rounded-2xl shadow-sm text-center">
+                <div className="text-[var(--color-secondary)] mb-3 inline-flex items-center justify-center p-3 bg-[var(--color-secondary)]/10 rounded-full">
+                  <BrandIcon name="send" size={28} />
+                </div>
+                <h3 className="text-xl font-serif font-semibold text-[var(--color-primary)] mb-1">Send an Email</h3>
+                <p className="text-xs text-[var(--color-muted-foreground)] mb-4 leading-relaxed">
+                  Best for detailed requests, group trips, longer itineraries, or written trip notes.
+                </p>
+                <div className="text-sm font-semibold text-[var(--color-primary)] mb-4 bg-slate-50 py-1.5 px-3 rounded-lg inline-block font-mono">
+                  {CONTACT_EMAIL}
+                </div>
+                <div className="flex justify-center">
+                  <a
+                    href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(DEFAULT_INQUIRY_SUBJECT)}&body=${encodeURIComponent(DEFAULT_EMAIL_BODY)}`}
+                    className="w-full inline-flex items-center justify-center rounded-md font-medium transition-all active:scale-[0.98] h-10 px-6 text-sm bg-[var(--color-secondary)] text-white hover:bg-[var(--color-secondary)]/90 shadow-sm font-semibold"
+                  >
+                    Send Email Inquiry
+                  </a>
+                </div>
               </div>
             </div>
           </div>

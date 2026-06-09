@@ -2,8 +2,17 @@ import * as React from "react"
 import Link from "next/link"
 import { Container } from "@/components/layout/Container"
 import { Section } from "@/components/layout/Section"
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton"
+import { 
+  CONTACT_EMAIL, 
+  CONTACT_WHATSAPP_URL, 
+  DEFAULT_INQUIRY_SUBJECT, 
+  DEFAULT_EMAIL_BODY 
+} from "@/lib/contact"
 
 export function ContactCTA() {
+  const mailtoUrl = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(DEFAULT_INQUIRY_SUBJECT)}&body=${encodeURIComponent(DEFAULT_EMAIL_BODY)}`
+
   return (
     <Section id="contact" className="bg-[var(--color-primary)] text-white text-center">
       <Container className="max-w-2xl">
@@ -24,12 +33,28 @@ export function ContactCTA() {
             </li>
           </ul>
         </div>
-        <Link 
-          href="/contact" 
-          className="inline-flex items-center justify-center rounded-full font-medium transition-all active:scale-[0.98] h-11 py-2 px-8 text-base bg-[var(--color-accent)] text-[var(--color-primary)] hover:bg-[var(--color-accent)]/90 shadow-md font-semibold"
-        >
-          Contact Us to Plan
-        </Link>
+        
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <WhatsAppButton href={CONTACT_WHATSAPP_URL} className="w-full sm:w-auto" />
+          
+          <a 
+            href={mailtoUrl}
+            className="w-full sm:w-auto inline-flex items-center justify-center rounded-md font-medium transition-all active:scale-[0.98] h-11 px-8 text-base bg-white/10 text-white hover:bg-white/20 border border-white/20 shadow-md font-semibold"
+          >
+            Send Email
+          </a>
+
+          <Link 
+            href="/contact" 
+            className="w-full sm:w-auto inline-flex items-center justify-center rounded-full font-medium transition-all active:scale-[0.98] h-11 px-8 text-base text-[var(--color-accent)] hover:underline font-semibold"
+          >
+            Detailed Inquiry Details →
+          </Link>
+        </div>
+        
+        <p className="text-xs text-white/50 mt-6 leading-relaxed">
+          Note: WhatsApp number is currently a development placeholder.
+        </p>
       </Container>
     </Section>
   )
