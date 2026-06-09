@@ -8,7 +8,7 @@ export function Navbar() {
       <Container className="flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition-opacity">
           <Image
-            src="/brand/kosuka-bali-logo.png"
+            src="/brand/kosuka-bali-trip-logo.png"
             alt="Kosuka Bali logo"
             width={48}
             height={48}
