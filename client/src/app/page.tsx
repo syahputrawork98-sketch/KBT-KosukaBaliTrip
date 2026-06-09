@@ -5,7 +5,6 @@ import { DestinationHighlights } from "@/components/sections/DestinationHighligh
 import { TourPackagesPreview } from "@/components/sections/TourPackagesPreview";
 import { VehiclePreview } from "@/components/sections/VehiclePreview";
 import { GalleryPreview } from "@/components/sections/GalleryPreview";
-import { AboutSection } from "@/components/sections/AboutSection";
 import { ContactCTA } from "@/components/sections/ContactCTA";
 import { Footer } from "@/components/sections/Footer";
 
@@ -17,11 +16,10 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <TrustStrip />
-        <DestinationHighlights />
-        <TourPackagesPreview />
-        <VehiclePreview />
-        <GalleryPreview />
-        <AboutSection />
+        <DestinationHighlights showCTA={true} />
+        <TourPackagesPreview showCTA={true} />
+        <VehiclePreview showCTA={true} />
+        <GalleryPreview showCTA={true} />
         <ContactCTA />
       </main>
 

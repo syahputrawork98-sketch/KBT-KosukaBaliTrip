@@ -1,4 +1,5 @@
 import * as React from "react"
+import Link from "next/link"
 import { Container } from "@/components/layout/Container"
 
 export function Footer() {
@@ -15,9 +16,13 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-lg mb-4 text-white">Quick Links</h4>
             <ul className="space-y-3 text-base text-white/80">
-              <li><a href="#destinations" className="hover:text-[var(--color-accent)] transition-colors">Destinations</a></li>
-              <li><a href="#tours" className="hover:text-[var(--color-accent)] transition-colors">Tours</a></li>
-              <li><a href="#vehicles" className="hover:text-[var(--color-accent)] transition-colors">Vehicles</a></li>
+              <li><Link href="/destinations" className="hover:text-[var(--color-accent)] transition-colors">Destinations</Link></li>
+              <li><Link href="/tours" className="hover:text-[var(--color-accent)] transition-colors">Tours</Link></li>
+              <li><Link href="/vehicles" className="hover:text-[var(--color-accent)] transition-colors">Vehicles</Link></li>
+              <li><Link href="/services" className="hover:text-[var(--color-accent)] transition-colors">Services</Link></li>
+              <li><Link href="/gallery" className="hover:text-[var(--color-accent)] transition-colors">Gallery</Link></li>
+              <li><Link href="/about" className="hover:text-[var(--color-accent)] transition-colors">About</Link></li>
+              <li><Link href="/contact" className="hover:text-[var(--color-accent)] transition-colors">Contact</Link></li>
             </ul>
           </div>
           <div>

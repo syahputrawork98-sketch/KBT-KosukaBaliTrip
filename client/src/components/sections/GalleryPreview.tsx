@@ -1,10 +1,11 @@
 import * as React from "react"
+import Link from "next/link"
 import { Container } from "@/components/layout/Container"
 import { Section } from "@/components/layout/Section"
 import { SectionHeading } from "@/components/layout/SectionHeading"
 import { galleryItems } from "@/data/landing"
 
-export function GalleryPreview() {
+export function GalleryPreview({ showCTA = false }: { showCTA?: boolean }) {
   return (
     <Section id="gallery">
       <Container>
@@ -33,6 +34,16 @@ export function GalleryPreview() {
             </div>
           ))}
         </div>
+        {showCTA && (
+          <div className="flex justify-center mt-12">
+            <Link 
+              href="/gallery" 
+              className="inline-flex items-center justify-center rounded-full font-medium transition-all active:scale-[0.98] h-11 py-2 px-8 text-base bg-[var(--color-secondary)] text-white hover:bg-[var(--color-secondary)]/90 shadow-md"
+            >
+              Explore Full Gallery
+            </Link>
+          </div>
+        )}
       </Container>
     </Section>
   )

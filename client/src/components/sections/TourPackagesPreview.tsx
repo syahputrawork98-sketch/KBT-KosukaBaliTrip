@@ -1,13 +1,13 @@
 import * as React from "react"
+import Link from "next/link"
 import { Container } from "@/components/layout/Container"
 import { Section } from "@/components/layout/Section"
 import { SectionHeading } from "@/components/layout/SectionHeading"
 import { Card, CardHeader, CardTitle, CardContent, CardFooter, CardDescription } from "@/components/ui/Card"
 import { Badge } from "@/components/ui/Badge"
-import { Button } from "@/components/ui/Button"
 import { tourPackages } from "@/data/landing"
 
-export function TourPackagesPreview() {
+export function TourPackagesPreview({ showCTA = false }: { showCTA?: boolean }) {
   return (
     <Section id="tours">
       <Container>
@@ -54,11 +54,23 @@ export function TourPackagesPreview() {
                   <span className="text-xs text-[var(--color-muted-foreground)] uppercase tracking-wider font-semibold mb-0.5">Trip style</span>
                   <span className="font-medium text-[var(--color-foreground)]">{tour.priceLabel}</span>
                 </div>
-                <Button variant="primary" size="sm" className="rounded-full px-6">Inquire</Button>
+                <Link href="/contact" className="inline-flex items-center justify-center rounded-full font-medium transition-all active:scale-[0.98] h-9 px-6 text-sm bg-[var(--color-accent)] text-[var(--color-primary)] hover:bg-[var(--color-accent)]/90 shadow-sm">
+                  Inquire
+                </Link>
               </CardFooter>
             </Card>
           ))}
         </div>
+        {showCTA && (
+          <div className="flex justify-center mt-12">
+            <Link 
+              href="/tours" 
+              className="inline-flex items-center justify-center rounded-full font-medium transition-all active:scale-[0.98] h-11 py-2 px-8 text-base bg-[var(--color-secondary)] text-white hover:bg-[var(--color-secondary)]/90 shadow-md"
+            >
+              Explore All Tours
+            </Link>
+          </div>
+        )}
       </Container>
     </Section>
   )
